@@ -18,3 +18,9 @@ def carre(a):
     Y.append(i**2)
   print(X)
   print(Y)
+  
+  def depasse_carre(M):
+  V=0
+  while V**2 < M:
+    V = V + 1
+  print(V)
