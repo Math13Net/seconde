@@ -9,23 +9,23 @@ def carre(a):
     Y.append(i**2)
   print(X)
   print(Y)
-  
- def carre_bis(a,b):
-  X=[]
-  Y=[]
-  for i in range(a,b+1):
-    X.append(i)
-    Y.append(i**2)
-  print(X)
-  print(Y)
-  
-  def depasse_carre(M):
+-------------------------------------------------------
+def carre_bis(a,b):
+ X=[]
+ Y=[]
+ for i in range(a,b+1):
+   X.append(i)
+   Y.append(i**2)
+ print(X)
+ print(Y)
+---------------------------------------------------------- 
+def depasse_carre(M):
   V=0
   while V**2 < M:
     V = V + 1
   print(V)
-
- def f(x):
+-----------------------------------------------------------
+def f(x):
   return a*x**2+b*x+c
 
 def sommet_parabole():
@@ -49,4 +49,4 @@ a = eval(input(" a = "))
 b = eval(input(" b = "))
 c = eval(input(" c = "))
 sommet_parabole()
-
+--------------------------------------------------
