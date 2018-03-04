@@ -50,3 +50,28 @@ b = eval(input(" b = "))
 c = eval(input(" c = "))
 sommet_parabole()
 #--------------------------------------------------
+# Algorithme de Dichotomie :
+import math
+
+def f(x):
+  return x **3+x -1
+
+def dichotomie(a, b, f, epsilon = 1e-6) :
+  if( math.fabs (a - b) <= epsilon ):
+    return (a+b) /2.0
+  else :
+    fa = f(a)
+    fb = f(b)
+    fab = f((a+b) /2.0)
+    if(fa * fab <= 0):
+      return dichotomie (a, (a+b)/2.0 , f, epsilon )
+    elif (fab * fb <= 0):
+      return dichotomie ((a+b)/2.0 , b, f, epsilon )
+    else :
+      raise Exception (" Domaine invalide pour trouver un zéro par dichotomie ")
+
+a = 0
+b = 1
+print (" Zéro de x**3+x-1 sur [{} ,{}] : {}". format (a, b, round ( dichotomie (a, b , f) ,6))
+#-----------------------------------------------------------------------------------------------
+
