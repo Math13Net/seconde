@@ -1,3 +1,7 @@
+# 2_Cours_08
+# Echantillonnage - Fluctuation
+
+------------------------------------------------------------------------------------------------
 # Intervalle de fluctuation
 # 1 EA = 1 Echantillon = 150 lancés de dés puis comptage du nombre de 5
 # le graphe représente 100 EA donc 100 échantillons
