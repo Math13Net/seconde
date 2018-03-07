@@ -1,5 +1,5 @@
 # 2_Cours_06
-# Probabilités (àrevoir - pb dans affichage des graphes)
+# Probabilités (à revoir - pb dans affichage des graphes)
 
 ------------------------------------------------------------------------------------------------
 import random as rd
