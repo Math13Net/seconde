@@ -17,15 +17,6 @@ def droite_2_points(xa,ya,xb,yb):
 ----------------------------------------------------------------------------------    
 from math import *
 
-def droite_2_points(xa,ya,xb,yb):
-# étudie la position relative de 2 droites : parallèles, perpendiculaires ou donne le point d'intersection  
-  if xa != xb:
-    a = (yb-ya)/(xb-xa)
-    b = ya -a*xa
-    print("l'équation de la droite est : y = ",a,"x + ",b)
-  else:
-    print("l'équation de la droite est : x = ",xa)
-    
 def position_droite(a1,b1,a2,b2):
   if a1==a2:
     print("les 2 droites sont parallèles")
