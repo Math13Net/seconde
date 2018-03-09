@@ -1,7 +1,7 @@
 # 2_Cours_09
 # Equation de droite - Système
 
---------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 from math import *
 
 def droite_2_points(xa,ya,xb,yb):
@@ -14,7 +14,7 @@ def droite_2_points(xa,ya,xb,yb):
   else:
     print("l'équation de la droite est : x = ",xa)
     
-----------------------------------------------------------------------------------    
+#----------------------------------------------------------------------------------    
 from math import *
 
 def position_droite(a1,b1,a2,b2):
@@ -26,3 +26,5 @@ def position_droite(a1,b1,a2,b2):
     x = (b2-b1)/(a1-a2)
     y = a1*(b2-b1)/(a1-a2)+b1
     print("(",x,",",y,") est le point d'intersection des 2 droites")
+#---------------------------------------------------------------------------------- 
+# à faire : tester l'alignement de 3 points
