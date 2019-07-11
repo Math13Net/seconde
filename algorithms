@@ -1,15 +1,9 @@
-Algorithmes de Seconde - 2019
-fournie par l'académie de Rouen : http://maths.spip.ac-rouen.fr/spip.php?article793
-------------------
-
 # # Partie "Nombres et calculs"
 
-# ## 1. DÃ©terminer par balayage un encadrement de $\sqrt{2}$ dâ€™amplitude infÃ©rieure ou Ã©gale Ã  $10^{-n}$.
+# ## 1. Déterminer par balayage un encadrement de $\sqrt{2}$ d'amplitude inférieure ou égale à  $10^{-n}$
 
-# On utilise le fait que la fonction carrÃ© est croisante et, en partant de 1, on calcule les carrÃ©s des nombres tant qu'ils sont plus petits que 2, en avanÃ§ant Ã  chaque fois d'un pas de $10^{-n}.$
-
-# In[45]:
-
+# On utilise le fait que la fonction carré est croisante et, en partant de 1,
+# on calcule les carrés des nombres tant qu'ils sont plus petits que 2, en avançant à  chaque fois d'un pas de $10^{-n}$
 
 def BalayageRacine2(pas):   # Le pas sera de la forme 1O^{-n}
     x = 1
@@ -17,37 +11,18 @@ def BalayageRacine2(pas):   # Le pas sera de la forme 1O^{-n}
         x = x + pas
     return (x-pas,x)
 
+# ---------------------------------------------------------------------------------------------------
 
-# In[46]:
+# ## 2. Déterminer si un entier naturel $a$ est multiple d'un entier naturel $b$
 
-
-BalayageRacine2(0.0001)
-
-
-# ------------------
-
-# ## 2. DÃ©terminer si un entier naturel $a$ est multiple dâ€™un entier naturel $b$.
-
-# On peut rÃ©soudre ce problÃ¨me Ã  l'aide de plusieurs algorithmes selon qu'on veuille ou non utiliser le reste de la division euclidienne fourni par Python
-
-# In[3]:
-
+# On peut résoudre ce problème à l'aide de plusieurs algorithmes selon qu'on veuille ou non
+# utiliser le reste de la division euclidienne fourni par Python
 
 def AestmultipledeB(a,b):
     if a%b == 0:
         return True
     else:
         return False
-
-
-# In[4]:
-
-
-AestmultipledeB(2024,6)
-
-
-# In[8]:
-
 
 def AestmultipledeB_2(a,b):
     n = 0  
@@ -58,25 +33,16 @@ def AestmultipledeB_2(a,b):
     else:
         return False
 
+# ---------------------------------------------------------------------------------------------
 
-# In[9]:
+# ## 3. Pour des entiers $a$ et $b$ donnés, déterminer le plus grand multiple de $b$ inférieur ou égal à $a$
 
-
-AestmultipledeB_2(2024,4)
-
-
-# ------------------
-
-# ## 3. Pour des entiers $a$ et $b$ donnÃ©s, dÃ©terminer le plus grand multiple de $b$ infÃ©rieur ou Ã©gal Ã  $a$.
-
-# On suppose que $b\leqslant a$ et on teste successivement les multiples de $b$ tant qu'ils sont infÃ©rieurs ou Ã©gaux Ã  $a$. La fonction renvoie le multiple de $b$ prÃ©cÃ©dent donc $(n-1)\times b$.
+# On suppose que $b\leqslant a$ et on teste successivement les multiples de $b$ tant qu'ils sont
+# inférieurs ou égaux à $a$. La fonction renvoie le multiple de $b$ précédent donc $(n-1)\times b$
 # 
 # **Remarque:**
 # 
-# On peut amÃ©liorer l'algorithme en commenÃ§ant par tester si $b\leqslant a$.
-
-# In[11]:
-
+# On peut améliorer l'algorithme en commençant par tester si $b\leqslant a$
 
 def PlusGrandMultiple(a,b):
     n = 1
@@ -84,25 +50,16 @@ def PlusGrandMultiple(a,b):
         n = n+1
     return (n-1)*b
 
+# ----------------------------------------------------------------------------------------------------
 
-# In[17]:
+# ## 4. Déterminer si un entier naturel est premier
 
-
-PlusGrandMultiple(172,17)
-
-
-# ------------------
-
-# ## 4. DÃ©terminer si un entier naturel est premier
-
-# On utilise l'opÃ©ration **n%i** qui renvoie le reste de la division euclidienne de $n$ par $i$. On teste tous les entiers compris entre 2 et $n-1$ pour savoir s'ils sont diviseurs de $n$.
+# On utilise l'opération **n%i** qui renvoie le reste de la division euclidienne de $n$ par $i$
+# On teste tous les entiers compris entre 2 et $n-1$ pour savoir s'ils sont diviseurs de $n$
 # 
 # **Remarques:** 
 # - La fonction utilise le fait que dÃ¨s qu'un appel Ã  **return** est effectuÃ©, la fonction d'arrÃªte.
 # - On peut amÃ©liorer l'algorithme en s'arrÃªtant plus tÃ´t et n'allant pas jusqu'Ã  $n$ dans la boucle *Pour*.
-
-# In[1]:
-
 
 def EstilPremier(n):
     for i in range(2,n):
@@ -110,28 +67,15 @@ def EstilPremier(n):
             return False
     return True
 
-
-# In[2]:
-
-
-EstilPremier(97)
-
-
-# In[3]:
-
-
-EstilPremier(203)
-
-
-# ### Une variante de l'algorithme basÃ©e sur l'obtention de la liste des diviseurs
-# On peut crÃ©er une fonction qui dÃ©termine dans un premier temps la liste des diviseurs de l'entier $n$ puis qui teste si la longueur de cette liste est Ã©gale Ã  2 (cas d'un nombre premier) ou pas.
+# ### Une variante de l'algorithme basée sur l'obtention de la liste des diviseurs
+# On peut créer une fonction qui détermine dans un premier temps la liste des diviseurs de l'entier $n$
+# puis qui teste si la longueur de cette liste est égale à 2 (cas d'un nombre premier) ou pas
 # 
 # **Remarque:**
 # 
-# La fonction renvoie un boolÃ©en, qu'il est facile de rÃ©cupÃ©rer ensuite dans un autre fonction, et la liste des diviseurs: il est en effet intÃ©ressant dans un premier temps d'observer cette liste, on peut ensuite s'en dispenser et ne garder que le boolÃ©en.
-
-# In[8]:
-
+# La fonction renvoie un booléen, qu'il est facile de récupérer ensuite dans un autre fonction,
+# et la liste des diviseurs: il est en effet intéressant dans un premier temps d'observer cette liste,
+# on peut ensuite s'en dispenser et ne garder que le boolÃ©en.
 
 def EstilPremier2(n):
     ListeDiviseurs=[]
@@ -143,25 +87,10 @@ def EstilPremier2(n):
     else:
         return False,ListeDiviseurs
 
+# ### Une variante utilisant la fonction précédemment définie pour savoir si $a$ est un multiple de $b$
 
-# In[9]:
-
-
-EstilPremier2(97)
-
-
-# In[10]:
-
-
-EstilPremier2(203)
-
-
-# ### Une variante utilisant la fonction prÃ©cÃ©demment dÃ©finie pour savoir si $a$ est un multiple de $b$
-
-# PlutÃ´t que d'utiliser la division euclidienne de Python, on utilse la fonction prÃ©cÃ©demment dÃ©finie ce qui renforce la conception modulaire des algorithmes chez les Ã©lÃ¨ves.
-
-# In[10]:
-
+# Plutôt que d'utiliser la division euclidienne de Python, on utilse la fonction précédemment définie
+# ce qui renforce la conception modulaire des algorithmes chez les élèves
 
 def EstilPremier3(n):
     for i in range(2,n):
@@ -169,20 +98,7 @@ def EstilPremier3(n):
             return False
     return True
 
-
-# In[11]:
-
-
-EstilPremier3(97)
-
-
-# In[12]:
-
-
-EstilPremier3(203)
-
-
-# ------------------
+# --------------------------------------------------------------------------------------------
 
 # ## 5. DÃ©terminer la premiÃ¨re puissance dâ€™un nombre positif donnÃ© supÃ©rieure ou infÃ©rieure Ã  une valeur donnÃ©e.
 
