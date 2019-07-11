@@ -1,0 +1,715 @@
+Algorithmes de Seconde - 2019
+fournie par l'académie de Rouen : http://maths.spip.ac-rouen.fr/spip.php?article793
+------------------
+
+# # Partie "Nombres et calculs"
+
+# ## 1. DÃ©terminer par balayage un encadrement de $\sqrt{2}$ dâ€™amplitude infÃ©rieure ou Ã©gale Ã  $10^{-n}$.
+
+# On utilise le fait que la fonction carrÃ© est croisante et, en partant de 1, on calcule les carrÃ©s des nombres tant qu'ils sont plus petits que 2, en avanÃ§ant Ã  chaque fois d'un pas de $10^{-n}.$
+
+# In[45]:
+
+
+def BalayageRacine2(pas):   # Le pas sera de la forme 1O^{-n}
+    x = 1
+    while x*x <=2:
+        x = x + pas
+    return (x-pas,x)
+
+
+# In[46]:
+
+
+BalayageRacine2(0.0001)
+
+
+# ------------------
+
+# ## 2. DÃ©terminer si un entier naturel $a$ est multiple dâ€™un entier naturel $b$.
+
+# On peut rÃ©soudre ce problÃ¨me Ã  l'aide de plusieurs algorithmes selon qu'on veuille ou non utiliser le reste de la division euclidienne fourni par Python
+
+# In[3]:
+
+
+def AestmultipledeB(a,b):
+    if a%b == 0:
+        return True
+    else:
+        return False
+
+
+# In[4]:
+
+
+AestmultipledeB(2024,6)
+
+
+# In[8]:
+
+
+def AestmultipledeB_2(a,b):
+    n = 0  
+    while n*b < a:
+        n = n+1
+    if n*b==a:
+        return True
+    else:
+        return False
+
+
+# In[9]:
+
+
+AestmultipledeB_2(2024,4)
+
+
+# ------------------
+
+# ## 3. Pour des entiers $a$ et $b$ donnÃ©s, dÃ©terminer le plus grand multiple de $b$ infÃ©rieur ou Ã©gal Ã  $a$.
+
+# On suppose que $b\leqslant a$ et on teste successivement les multiples de $b$ tant qu'ils sont infÃ©rieurs ou Ã©gaux Ã  $a$. La fonction renvoie le multiple de $b$ prÃ©cÃ©dent donc $(n-1)\times b$.
+# 
+# **Remarque:**
+# 
+# On peut amÃ©liorer l'algorithme en commenÃ§ant par tester si $b\leqslant a$.
+
+# In[11]:
+
+
+def PlusGrandMultiple(a,b):
+    n = 1
+    while n*b<=a:
+        n = n+1
+    return (n-1)*b
+
+
+# In[17]:
+
+
+PlusGrandMultiple(172,17)
+
+
+# ------------------
+
+# ## 4. DÃ©terminer si un entier naturel est premier
+
+# On utilise l'opÃ©ration **n%i** qui renvoie le reste de la division euclidienne de $n$ par $i$. On teste tous les entiers compris entre 2 et $n-1$ pour savoir s'ils sont diviseurs de $n$.
+# 
+# **Remarques:** 
+# - La fonction utilise le fait que dÃ¨s qu'un appel Ã  **return** est effectuÃ©, la fonction d'arrÃªte.
+# - On peut amÃ©liorer l'algorithme en s'arrÃªtant plus tÃ´t et n'allant pas jusqu'Ã  $n$ dans la boucle *Pour*.
+
+# In[1]:
+
+
+def EstilPremier(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+
+
+# In[2]:
+
+
+EstilPremier(97)
+
+
+# In[3]:
+
+
+EstilPremier(203)
+
+
+# ### Une variante de l'algorithme basÃ©e sur l'obtention de la liste des diviseurs
+# On peut crÃ©er une fonction qui dÃ©termine dans un premier temps la liste des diviseurs de l'entier $n$ puis qui teste si la longueur de cette liste est Ã©gale Ã  2 (cas d'un nombre premier) ou pas.
+# 
+# **Remarque:**
+# 
+# La fonction renvoie un boolÃ©en, qu'il est facile de rÃ©cupÃ©rer ensuite dans un autre fonction, et la liste des diviseurs: il est en effet intÃ©ressant dans un premier temps d'observer cette liste, on peut ensuite s'en dispenser et ne garder que le boolÃ©en.
+
+# In[8]:
+
+
+def EstilPremier2(n):
+    ListeDiviseurs=[]
+    for i in range(1,n+1):
+        if n%i==0:
+            ListeDiviseurs=ListeDiviseurs+[i]  # On peut aussi utiliser la mÃ©thode .append
+    if len(ListeDiviseurs)==2:
+        return True,ListeDiviseurs
+    else:
+        return False,ListeDiviseurs
+
+
+# In[9]:
+
+
+EstilPremier2(97)
+
+
+# In[10]:
+
+
+EstilPremier2(203)
+
+
+# ### Une variante utilisant la fonction prÃ©cÃ©demment dÃ©finie pour savoir si $a$ est un multiple de $b$
+
+# PlutÃ´t que d'utiliser la division euclidienne de Python, on utilse la fonction prÃ©cÃ©demment dÃ©finie ce qui renforce la conception modulaire des algorithmes chez les Ã©lÃ¨ves.
+
+# In[10]:
+
+
+def EstilPremier3(n):
+    for i in range(2,n):
+        if AestmultipledeB_2(n,i):
+            return False
+    return True
+
+
+# In[11]:
+
+
+EstilPremier3(97)
+
+
+# In[12]:
+
+
+EstilPremier3(203)
+
+
+# ------------------
+
+# ## 5. DÃ©terminer la premiÃ¨re puissance dâ€™un nombre positif donnÃ© supÃ©rieure ou infÃ©rieure Ã  une valeur donnÃ©e.
+
+# On s'inspire de l'algorithme utilisÃ© pour rÃ©soudre le problÃ¨me "Pour des entiers $a$ et $b$ donnÃ©s, dÃ©terminer le plus grand multiple de $b$ infÃ©rieur ou Ã©gal Ã  $a$".
+# 
+# On cherche la premiÃ¨re puissance de $b$ infÃ©rieure (strictement) ou supÃ©rieure (strictement) Ã  $a$ dans le cas oÃ¹ $a$ n'est pas une puissance de $b$.
+
+# In[13]:
+
+
+def PremierePuissanceInferieure(a,b):
+    puissance = 1
+    while puissance < a:
+        puissance = puissance * b
+    return puissance/b
+
+
+# In[14]:
+
+
+PremierePuissanceInferieure(37698,14)
+
+
+# In[16]:
+
+
+def PremierePuissanceSuperieure(a,b):
+    puissance = 1
+    while puissance < a:
+        puissance = puissance * b
+    return puissance
+
+
+# In[17]:
+
+
+PremierePuissanceSuperieure(37698,14)
+
+
+# **Remarque:** On peut amÃ©liorer l'algorithme en testant d'abord sir le nombre $a$ est une puissance de $b$ puis, si ce n'est pas le cas, renvoyer les deux puissances de $b$ qui encadrent $a$.
+
+# In[20]:
+
+
+def PremieresPuissances(a,b):
+    n=0
+    while b**n<a:
+        n = n+1
+    if b**n==a:
+        return 'a est une puissance de b'
+    else:
+        return PremierePuissanceInferieure(a,b),PremierePuissanceSuperieure(a,b)
+
+
+# In[21]:
+
+
+PremieresPuissances(1000,10)
+
+
+# In[22]:
+
+
+PremieresPuissances(2345678,10)
+
+
+# ------------------
+
+# # Partie "GÃ©omÃ©trie"
+
+# ## 1. Ã‰tudier lâ€™alignement de trois points dans le plan.
+
+# La rÃ©fÃ©rence Ã  cet algorithme apparait dans le programme officiel dans la partie "ReprÃ©senter et caractÃ©riser les droites du plan". On peut donc utiliser cette approche pour Ã©tudier l'alignement de trois points du plan. 
+# On peut Ã©galement faire rÃ©fÃ©rence Ã  la colinÃ©aritÃ© des vecteurs en utilisant le dÃ©terminant de deux vecteurs.
+# 
+# Ã€ noter qu'il faut prendre garde aux tests d'Ã©galitÃ©s avec des flottants !
+
+# ### Version utilisant les Ã©quations de droites
+
+# On dÃ©termine le coefficient directeur et l'ordonnÃ©e Ã  l'origine de la droite formÃ©e par les deux premiers points (dans le cas oÃ¹ ils ont des abscisses diffÃ©rentes) puis on teste si les coordonnÃ©es du troisiÃ¨me point vÃ©rifient ou non l'Ã©quation de la droite.
+
+# In[25]:
+
+
+def CoefficientDirecteur(x1,y1,x2,y2): # On se place dans le cas oÃ¹ x1 est diffÃ©rent de x2
+    return (y2-y1)/(x2-x1)
+
+def OrdonneeALorigine(x1,y1,x2,y2): # On se place dans la cas oÃ¹ x1 est diffÃ©rence de x3
+    return y1-CoefficientDirecteur(x1,y1,x2,y2)*x1
+
+def PointsAlignes(x1,y1,x2,y2,x3,y3):
+    if abs(x1-x2) < 10**(-12):
+        if abs(x1-x3) < 10**(-12):
+            return True
+        else:
+            return False
+    else:
+        a = CoefficientDirecteur(x1,y1,x2,y2)
+        b = OrdonneeALorigine(x1,y1,x2,y2)
+        if abs(y3-a*x3-b) < 10**(-12):
+            return True
+        else:
+            return False
+
+
+# In[26]:
+
+
+PointsAlignes(3,4,3,5,3.1,6)
+
+
+# In[27]:
+
+
+PointsAlignes(3,4,3,5,3,6)
+
+
+# In[28]:
+
+
+PointsAlignes(2,3,7,8,17,18)
+
+
+# In[29]:
+
+
+PointsAlignes(2,3,7,8,17,18.001)
+
+
+# ### Version utilisant la colinÃ©aritÃ© de vecteurs
+
+# On crÃ©e d'abord une fonction calculant le dÃ©terminant de deux vecteurs que l'on rÃ©investit ensuite.
+
+# In[38]:
+
+
+def determinant(xu,yu,xv,yv):
+    return xu*yv-yu*xv
+
+def PointsAlignes2(x1,y1,x2,y2,x3,y3):
+    if abs(determinant(x2-x1,y2-y1,x3-x1,y3-y1))<10**(-12):
+        return True
+    else:
+        return False
+
+
+# In[40]:
+
+
+PointsAlignes2(2,3,7,8,17,18)
+
+
+# In[41]:
+
+
+PointsAlignes2(2,3,7,8,17,18.001)
+
+
+# ------------------
+
+# ## 2. DÃ©terminer une Ã©quation de droite passant par deux points donnÃ©s.
+
+# Dans le cas oÃ¹ les deux points, que l'on suppose distincts !, ont la mÃªme abscisse, on renvoit simplement l'Ã©quation sous la forme $x=c$. Dans l'autre cas, on renvoit l'Ã©quation rÃ©duite de la droite en utilisant les fonctions permettant de dÃ©terminer le coefficient directeur et l'ordonnÃ©e Ã  l'origine ci-dessus.
+
+# In[42]:
+
+
+def EquationDeDroite(x1,y1,x2,y2):
+    if abs(x1-x2)<10**(-12):
+        return 'x='+str(x1)  # on revoie l'Ã©quation sous forme d'un texte
+    else:
+        a = CoefficientDirecteur(x1,y1,x2,y2)
+        b = OrdonneeALorigine(x1,y1,x2,y2)
+        return 'y='+str(a)+'*x+'+str(b)
+
+
+# In[43]:
+
+
+EquationDeDroite(2,4,2,8)
+
+
+# In[44]:
+
+
+EquationDeDroite(2,4,5,5)
+
+
+# ------------------
+
+# # Partie "Fonctions"
+
+# ## 1. Pour une fonction dont le tableau de variations est donnÃ©, algorithmes dâ€™approximation numÃ©rique dâ€™un extremum (balayage, dichotomie).
+
+# On se place dans la situation d'une fonction $f$ dÃ©finie sur un intervalle $[a;b]$, qui est croissante sur $[a;c]$ puis dÃ©croissante sur $[c;b]$. On cherche donc une valeur approchÃ©e de $f(c)$. On va choisir la fonction $f$ dÃ©finie pour tout $x\in[-4;0]$ par $f(x)=x^3+3x^2-2x+1$.
+
+# ### Algorithme par balayage
+
+# In[49]:
+
+
+def f(x):
+    return x**3+3*x**2-2*x+1
+
+def BalayageExtremum(pas):
+    x = -4
+    maximum_provisoire = f(x)
+    while x<=0:
+        if f(x)>maximum_provisoire:
+            maximum_provisoire = f(x)
+        x = x + pas
+    return maximum_provisoire 
+
+
+# In[52]:
+
+
+BalayageExtremum(0.00001)
+
+
+# **Remarque:** On peut amÃ©liorer l'algorithme en renvoyant Ã  la fois la valeur approchÃ©e de l'extrÃ©mum et du rÃ©el en lequel il est atteint
+
+# In[53]:
+
+
+def f(x):
+    return x**3+3*x**2-2*x+1
+
+def BalayageExtremum2(pas):
+    x = -4
+    maximum_provisoire = f(x)
+    while x<=0:
+        if f(x)>maximum_provisoire:
+            maximum_provisoire = f(x)
+            x_cherche = x
+        x = x + pas
+    return x_cherche,maximum_provisoire
+
+
+# In[54]:
+
+
+BalayageExtremum2(0.00001)
+
+
+# ------------------
+
+# ## 2. Algorithme de calcul approchÃ© de longueur dâ€™une portion de courbe reprÃ©sentative de fonction.
+
+# On dÃ©finit d'abord une fonction permettant de calculer la distance entre deux points dans un repÃ¨re orthonormÃ©. Une fonction $f$ Ã©tant dÃ©finie, on approxime alors la longueur de la portion de courbe reprÃ©sentative de $f$ sur un intervalle $[a;b]$ choisi par l'utilisateur avec un pas Ã©galement choisi par l'utilisateur.  
+# 
+# On peut Ã©galement choisir de partager l'intervalle $[a;b]$ en $n$ parties Ã©gales.
+
+# In[63]:
+
+
+from math import *
+
+def Distance(x1,y1,x2,y2):
+    return sqrt((x2-x1)**2+(y2-y1)**2)
+
+def f(x):
+    return x**3   # Fonction Ã  choisir par l'utilisateur
+
+def LongueurCourbe(f,a,b,pas):
+    longueur = 0
+    x = a
+    while x<b:
+        longueur = longueur + Distance(x,f(x),x+pas,f(x+pas))
+        x = x + pas
+    return longueur
+
+
+# In[64]:
+
+
+LongueurCourbe(f,-5,5,0.001)
+
+
+# ------------------
+
+# # Partie "Statistiques et ProbabilitÃ©s"
+
+# ## 1. Pour des donnÃ©es rÃ©elles ou issues dâ€™une simulation, lire et comprendre une fonction Ã©crite en Python renvoyant la moyenne $m$, lâ€™Ã©cart type $s$, et la proportion dâ€™Ã©lÃ©ments appartenant Ã  $[m-2s,m+2s]$.
+
+# On peut procÃ©der en deux temps:
+# 
+# - D'abord crÃ©er une fonction permettant de simuler une expÃ©rience alÃ©atoire
+# - CrÃ©er une fonction rÃ©pondant renvoyant la moyenne $m$, lâ€™Ã©cart type $s$, et la proportion dâ€™Ã©lÃ©ments appartenant Ã  $[m-2s,m+2s]$. Cette fonction peut Ã©galement Ãªtre utilisÃ©e pour toutes les listes de donnÃ©es numÃ©riques rÃ©elles.
+
+# On choisit $n$ personnes dont on mesure le taux de glycÃ©mie dans le sang (qui suit la loi normale d'espÃ©rance $1$ $g.L^{-1}$ et d'Ã©cart-type $0,1$ $g.L^{-1}$ ce qui permet de simuler une liste et de la donner *brute* aux Ã©lÃ¨ves).
+
+# In[52]:
+
+
+from math import *
+from random import *
+import numpy.random as alea
+
+def TauxGlycemie(n):
+    Liste = []
+    for compteur in range(n):
+        glycemie = alea.randn()*0.1+1  # randn() permet de simuler la loi normale centrÃ©e rÃ©duite
+        Liste = Liste + [glycemie]
+    return Liste
+
+def Moyenne(Liste):
+    n = len(Liste)  # Longueur de la liste
+    somme = 0
+    for t in Liste:
+        somme = somme + t
+    moyenne = somme / n
+    return moyenne
+
+def Ecarttype(Liste):
+    n = len(Liste)
+    somme_ecart_moyenne = 0
+    m = Moyenne(Liste)
+    for t in Liste:
+        somme_ecart_moyenne = somme_ecart_moyenne + (t-m)**2
+    variance = somme_ecart_moyenne / n
+    ecart_type = sqrt(variance)
+    return ecart_type
+
+def Parametres(Liste):
+    m = Moyenne(Liste)
+    s = Ecarttype(Liste)
+    
+    nombre_dans_intervalle = 0
+    for t in Liste:
+        if m-2*s < t and t < m+2*s:
+            nombre_dans_intervalle = nombre_dans_intervalle + 1
+    frequence = nombre_dans_intervalle / len(Liste)
+    
+    return m, s, frequence
+
+
+# In[54]:
+
+
+Parametres(TauxGlycemie(5000))
+
+
+# **Remarque:** Il est intÃ©ressant Ã©galement d'ajouter une reprÃ©sentation graphique Ã  la fonction prÃ©cÃ©dente pour renforcer le cÃ´tÃ© "exceptionnel" des valeurs Ã  l'extÃ©rieur de l'intervalle $[m-2s;m+2s]$.
+
+# In[61]:
+
+
+from math import *
+from random import *
+import numpy.random as alea
+import matplotlib.pyplot as plt
+
+def TauxGlycemie(n):
+    Liste = []
+    for compteur in range(n):
+        glycemie = alea.randn()*0.1+1  # randn() permet de simuler la loi normale centrÃ©e rÃ©duite
+        Liste = Liste + [glycemie]
+    return Liste
+
+def Moyenne(Liste):
+    n = len(Liste)  # Longueur de la liste
+    somme = 0
+    for t in Liste:
+        somme = somme + t
+    moyenne = somme / n
+    return moyenne
+
+def Ecarttype(Liste):
+    n = len(Liste)
+    somme_ecart_moyenne = 0
+    m = Moyenne(Liste)
+    for t in Liste:
+        somme_ecart_moyenne = somme_ecart_moyenne + (t-m)**2
+    variance = somme_ecart_moyenne / n
+    ecart_type = sqrt(variance)
+    return ecart_type
+
+def Parametres2(Liste):
+    m = Moyenne(Liste)
+    s = Ecarttype(Liste)
+    
+    nombre_dans_intervalle = 0
+    for t in Liste:
+        if m-2*s < t and t < m+2*s:
+            nombre_dans_intervalle = nombre_dans_intervalle + 1
+    frequence = nombre_dans_intervalle / len(Liste)
+    
+    Liste_X = range(1,len(Liste)+1)
+    Liste_Y = Liste
+    
+    plt.plot(Liste_X,Liste_Y,"b.")
+    plt.plot((0,len(Liste)+1),(m,m),"g")
+    plt.plot((0,len(Liste)+1),(m-2*s,m-2*s),"r")
+    plt.plot((0,len(Liste)+1),(m+2*s,m+2*s),"r")
+    plt.show()
+    
+    return m, s, frequence
+
+
+# In[62]:
+
+
+Parametres2(TauxGlycemie(1000))
+
+
+# ------------------
+
+# ### 2. Lire et comprendre une fonction Python renvoyant le nombre ou la frÃ©quence de succÃ¨s dans un Ã©chantillon de taille $n$ pour une expÃ©rience alÃ©atoire Ã  deux issues.
+
+# On considÃ¨re une expÃ©rience alÃ©atoire Ã  deux issues dont le succÃ©s Ã  pour probabilitÃ© $p$. On rÃ©pÃ¨te cette expÃ©rience alÃ©atoire $n$ fois.
+# On peut Ã©crire la fonction renvoyant la frÃ©quence de succÃ¨s en modifiant la fin de la fonction renvoyant le nombre de succÃ¨s ou alors appeler cette fonction.
+
+# In[1]:
+
+
+from random import *
+
+def nombre_succes(n,p):
+    nb_succes = 0
+    for compteur in range(n):
+        if random()<p:
+            nb_succes = nb_succes + 1
+    return nb_succes
+
+def frequence_succes(n,p):
+    return nombre_succes(n,p)/n
+
+
+# In[3]:
+
+
+frequence_succes(1000,0.7)
+
+
+# ------------------
+
+# ### 3. Observer la loi des grands nombres Ã  lâ€™aide dâ€™une simulation sur Python ou tableur.
+
+# On considÃ¨re un dÃ© Ã  six faces dont la face 6 a Ã©tÃ© remplacÃ©e par 1. On souhaite observer la frÃ©quence de 1 au fur et Ã  mesure de la rÃ©pÃ©tition d'Ã©preuves. 
+# 
+# **Remarque:** PlutÃ´t que d'utiliser la fonction *random()*, on peut utiliser la fonction *choice()* qui s'avÃ¨re trÃ¨s explicite pour les Ã©lÃ¨ves.
+
+# In[9]:
+
+
+import matplotlib.pyplot as plt
+from random import *
+
+def de_truque():
+    DE = [1,1,2,3,4,5]
+    return choice(DE)
+    
+def representation_graphique(n):
+    Liste_X=[0]
+    Liste_Y=[0]
+    nb_succes = 0
+    for compteur in range(1,n+1):
+        Liste_X = Liste_X + [compteur]
+        if de_truque()==1:
+            nb_succes = nb_succes + 1
+        Liste_Y = Liste_Y + [nb_succes / compteur]
+    plt.plot(Liste_X,Liste_Y,'b.')
+    plt.grid()
+    plt.show()
+
+
+# In[12]:
+
+
+representation_graphique(1000)
+
+
+# **Remarque:** Il est intÃ©ressant de montrer la stabilisation de maniÃ¨re "dynamique" en utilisant l'animation de matplotlib. Bien Ã©videmment, cet algorithme est Ã  destination du professeur, pas de l'Ã©lÃ¨ve.
+# 
+# Penser Ã  choisir la valeur de $N$ nombre d'expÃ©riences alÃ©atoires Ã  rÃ©aliser.
+
+# In[2]:
+
+
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+from random import *
+
+from IPython.display import HTML
+
+###########
+N = 300   # Nombre d'expÃ©riences alÃ©atoires Ã  rÃ©aliser
+###########
+
+def de_truque():
+    DE = [1,1,2,3,4,5]
+    return choice(DE)
+    
+def frequences(n):
+    Liste_Y=[0]
+    nb_succes = 0
+    for compteur in range(1,n+1):
+        if de_truque()==1:
+            nb_succes = nb_succes + 1
+        Liste_Y = Liste_Y + [nb_succes / compteur]
+    return Liste_Y
+
+fig, ax = plt.subplots()
+xdata, ydata = [], []
+points, = plt.plot([], [], 'b.')
+
+Liste_a_representer = frequences(N)
+
+def init():
+    ax.set_xlim(0, N)
+    ax.set_ylim(0, 1)
+    return points,
+
+def update(i):
+    xdata.append(i)
+    ydata.append(Liste_a_representer[i])
+    points.set_data(xdata, ydata)
+    return points,
+
+ani = FuncAnimation(fig, update, frames=N,init_func=init, blit=True)
+HTML(ani.to_jshtml())
+#HTML(ani.to_html5_video())
+
+
+# In[ ]:
+
+
+
