@@ -171,7 +171,6 @@ def PointsAlignes(x1,y1,x2,y2,x3,y3):
         else:
             return False
 
-
 # ### Version utilisant la colinéarité de vecteurs
 
 # On crée d'abord une fonction calculant le déterminant de deux vecteurs que l'on réinvestit ensuite
@@ -189,10 +188,10 @@ def PointsAlignes2(x1,y1,x2,y2,x3,y3):
 
 # ## 2. Déterminer une équation de droite passant par deux points donnés
 
-# Dans le cas où les deux points, que l'on suppose distincts !, ont la mÃªme abscisse, on renvoit simplement l'Ã©quation sous la forme $x=c$. Dans l'autre cas, on renvoit l'Ã©quation rÃ©duite de la droite en utilisant les fonctions permettant de dÃ©terminer le coefficient directeur et l'ordonnÃ©e Ã  l'origine ci-dessus.
-
-# In[42]:
-
+# Dans le cas où les deux points, que l'on suppose distincts !, ont la même abscisse,
+# on renvoit simplement l'équation sous la forme $x=c$. Dans l'autre cas,
+# on renvoit l'équation réduite de la droite en utilisant les fonctions permettant de déterminer
+# le coefficient directeur et l'ordonnée à l'origine ci-dessus
 
 def EquationDeDroite(x1,y1,x2,y2):
     if abs(x1-x2)<10**(-12):
@@ -202,31 +201,18 @@ def EquationDeDroite(x1,y1,x2,y2):
         b = OrdonneeALorigine(x1,y1,x2,y2)
         return 'y='+str(a)+'*x+'+str(b)
 
-
-# In[43]:
-
-
-EquationDeDroite(2,4,2,8)
-
-
-# In[44]:
-
-
-EquationDeDroite(2,4,5,5)
-
-
-# ------------------
+# ----------------------------------------------------------------------------------------------------------------------------
 
 # # Partie "Fonctions"
 
-# ## 1. Pour une fonction dont le tableau de variations est donnÃ©, algorithmes dâ€™approximation numÃ©rique dâ€™un extremum (balayage, dichotomie).
+# ## 1. Pour une fonction dont le tableau de variations est donné, algorithmes d'approximation numérique
+# d'un extremum (balayage, dichotomie)
 
-# On se place dans la situation d'une fonction $f$ dÃ©finie sur un intervalle $[a;b]$, qui est croissante sur $[a;c]$ puis dÃ©croissante sur $[c;b]$. On cherche donc une valeur approchÃ©e de $f(c)$. On va choisir la fonction $f$ dÃ©finie pour tout $x\in[-4;0]$ par $f(x)=x^3+3x^2-2x+1$.
+# On se place dans la situation d'une fonction $f$ définie sur un intervalle $[a;b]$,
+# qui est croissante sur $[a;c]$ puis décroissante sur $[c;b]$. On cherche donc une valeur approchée de $f(c)$
+# On va choisir la fonction $f$ définie pour tout $x\in[-4;0]$ par $f(x)=x^3+3x^2-2x+1$
 
 # ### Algorithme par balayage
-
-# In[49]:
-
 
 def f(x):
     return x**3+3*x**2-2*x+1
@@ -240,17 +226,8 @@ def BalayageExtremum(pas):
         x = x + pas
     return maximum_provisoire 
 
-
-# In[52]:
-
-
-BalayageExtremum(0.00001)
-
-
-# **Remarque:** On peut amÃ©liorer l'algorithme en renvoyant Ã  la fois la valeur approchÃ©e de l'extrÃ©mum et du rÃ©el en lequel il est atteint
-
-# In[53]:
-
+# **Remarque:** On peut améliorer l'algorithme en renvoyant à la fois la valeur approchée de l'extrémum et
+# du réel en lequel il est atteint
 
 def f(x):
     return x**3+3*x**2-2*x+1
@@ -265,23 +242,15 @@ def BalayageExtremum2(pas):
         x = x + pas
     return x_cherche,maximum_provisoire
 
+# ------------------------------------------------------------------------------------------------
 
-# In[54]:
+# ## 2. Algorithme de calcul approché de longueur d'une portion de courbe représentative de fonction
 
-
-BalayageExtremum2(0.00001)
-
-
-# ------------------
-
-# ## 2. Algorithme de calcul approchÃ© de longueur dâ€™une portion de courbe reprÃ©sentative de fonction.
-
-# On dÃ©finit d'abord une fonction permettant de calculer la distance entre deux points dans un repÃ¨re orthonormÃ©. Une fonction $f$ Ã©tant dÃ©finie, on approxime alors la longueur de la portion de courbe reprÃ©sentative de $f$ sur un intervalle $[a;b]$ choisi par l'utilisateur avec un pas Ã©galement choisi par l'utilisateur.  
+# On définit d'abord une fonction permettant de calculer la distance entre deux points dans un repère orthonormé
+# Une fonction $f$ étant définie, on approxime alors la longueur de la portion de courbe représentative de $f$ sur
+# un intervalle $[a;b]$ choisi par l'utilisateur avec un pas également choisi par l'utilisateur  
 # 
-# On peut Ã©galement choisir de partager l'intervalle $[a;b]$ en $n$ parties Ã©gales.
-
-# In[63]:
-
+# On peut également choisir de partager l'intervalle $[a;b]$ en $n$ parties égales
 
 from math import *
 
@@ -299,28 +268,22 @@ def LongueurCourbe(f,a,b,pas):
         x = x + pas
     return longueur
 
+# -----------------------------------------------------------------------------------------------------------------------------
 
-# In[64]:
+# # Partie "Statistiques et Probabilités"
 
-
-LongueurCourbe(f,-5,5,0.001)
-
-
-# ------------------
-
-# # Partie "Statistiques et ProbabilitÃ©s"
-
-# ## 1. Pour des donnÃ©es rÃ©elles ou issues dâ€™une simulation, lire et comprendre une fonction Ã©crite en Python renvoyant la moyenne $m$, lâ€™Ã©cart type $s$, et la proportion dâ€™Ã©lÃ©ments appartenant Ã  $[m-2s,m+2s]$.
+# ## 1. Pour des données réelles ou issues d'une simulation, lire et comprendre une fonction écrite en Python
+renvoyant la moyenne $m$, l'écart type $s$, et la proportion d'éléments appartenant à $[m-2s,m+2s]$
 
 # On peut procÃ©der en deux temps:
 # 
-# - D'abord crÃ©er une fonction permettant de simuler une expÃ©rience alÃ©atoire
-# - CrÃ©er une fonction rÃ©pondant renvoyant la moyenne $m$, lâ€™Ã©cart type $s$, et la proportion dâ€™Ã©lÃ©ments appartenant Ã  $[m-2s,m+2s]$. Cette fonction peut Ã©galement Ãªtre utilisÃ©e pour toutes les listes de donnÃ©es numÃ©riques rÃ©elles.
+# - D'abord créer une fonction permettant de simuler une expérience aléatoire
+# - Créer une fonction répondant renvoyant la moyenne $m$, l'écart type $s$, et la proportion d'éléments
+# appartenant à $[m-2s,m+2s]$. Cette fonction peut également être utilisée pour toutes les listes de données numériques réelles
 
-# On choisit $n$ personnes dont on mesure le taux de glycÃ©mie dans le sang (qui suit la loi normale d'espÃ©rance $1$ $g.L^{-1}$ et d'Ã©cart-type $0,1$ $g.L^{-1}$ ce qui permet de simuler une liste et de la donner *brute* aux Ã©lÃ¨ves).
-
-# In[52]:
-
+# On choisit $n$ personnes dont on mesure le taux de glycémie dans le sang
+# (qui suit la loi normale d'espérance $1$ $g.L^{-1}$ et d'écart-type $0,1$ $g.L^{-1}$ ce qui
+# permet de simuler une liste et de la donner *brute* aux élèves)
 
 from math import *
 from random import *
@@ -363,17 +326,8 @@ def Parametres(Liste):
     
     return m, s, frequence
 
-
-# In[54]:
-
-
-Parametres(TauxGlycemie(5000))
-
-
-# **Remarque:** Il est intÃ©ressant Ã©galement d'ajouter une reprÃ©sentation graphique Ã  la fonction prÃ©cÃ©dente pour renforcer le cÃ´tÃ© "exceptionnel" des valeurs Ã  l'extÃ©rieur de l'intervalle $[m-2s;m+2s]$.
-
-# In[61]:
-
+# **Remarque:** Il est intéressant également d'ajouter une représentation graphique à la fonction précédente pour
+# renforcer le côté "exceptionnel" des valeurs à l'extérieur de l'intervalle $[m-2s;m+2s]$
 
 from math import *
 from random import *
@@ -426,22 +380,15 @@ def Parametres2(Liste):
     
     return m, s, frequence
 
+# -------------------------------------------------------------------------------------------------------
 
-# In[62]:
+# ### 2. Lire et comprendre une fonction Python renvoyant le nombre ou la fréquence de succès
+# dans un échantillon de taille $n$ pour une expérience aléatoire à deux issues
 
-
-Parametres2(TauxGlycemie(1000))
-
-
-# ------------------
-
-# ### 2. Lire et comprendre une fonction Python renvoyant le nombre ou la frÃ©quence de succÃ¨s dans un Ã©chantillon de taille $n$ pour une expÃ©rience alÃ©atoire Ã  deux issues.
-
-# On considÃ¨re une expÃ©rience alÃ©atoire Ã  deux issues dont le succÃ©s Ã  pour probabilitÃ© $p$. On rÃ©pÃ¨te cette expÃ©rience alÃ©atoire $n$ fois.
-# On peut Ã©crire la fonction renvoyant la frÃ©quence de succÃ¨s en modifiant la fin de la fonction renvoyant le nombre de succÃ¨s ou alors appeler cette fonction.
-
-# In[1]:
-
+# On considère une expérience aléatoire à deux issues dont le succès à pour probabilité $p$
+# On répète cette expérience aléatoire $n$ fois
+# On peut écrire la fonction renvoyant la fréquence de succès en modifiant la fin de la fonction
+# renvoyant le nombre de succès ou alors appeler cette fonction
 
 from random import *
 
@@ -455,23 +402,15 @@ def nombre_succes(n,p):
 def frequence_succes(n,p):
     return nombre_succes(n,p)/n
 
+# -------------------------------------------------------------------------------------------------------
 
-# In[3]:
+# ### 3. Observer la loi des grands nombres à l'aide d'une simulation sur Python ou tableur
 
-
-frequence_succes(1000,0.7)
-
-
-# ------------------
-
-# ### 3. Observer la loi des grands nombres Ã  lâ€™aide dâ€™une simulation sur Python ou tableur.
-
-# On considÃ¨re un dÃ© Ã  six faces dont la face 6 a Ã©tÃ© remplacÃ©e par 1. On souhaite observer la frÃ©quence de 1 au fur et Ã  mesure de la rÃ©pÃ©tition d'Ã©preuves. 
+# On considère un dé à 6 faces dont la face 6 a été remplacée par 1
+# On souhaite observer la fréquence de 1 au fur et à mesure de la répétition d'épreuves 
 # 
-# **Remarque:** PlutÃ´t que d'utiliser la fonction *random()*, on peut utiliser la fonction *choice()* qui s'avÃ¨re trÃ¨s explicite pour les Ã©lÃ¨ves.
-
-# In[9]:
-
+# **Remarque:** Plutôt que d'utiliser la fonction *random()*, on peut utiliser la fonction *choice()* qui
+# s'avère très explicite pour les élèves
 
 import matplotlib.pyplot as plt
 from random import *
@@ -493,19 +432,10 @@ def representation_graphique(n):
     plt.grid()
     plt.show()
 
-
-# In[12]:
-
-
-representation_graphique(1000)
-
-
-# **Remarque:** Il est intÃ©ressant de montrer la stabilisation de maniÃ¨re "dynamique" en utilisant l'animation de matplotlib. Bien Ã©videmment, cet algorithme est Ã  destination du professeur, pas de l'Ã©lÃ¨ve.
+# **Remarque:** Il est intéressant de montrer la stabilisation de manière "dynamique" en utilisant l'animation
+de matplotlib. Bien évidemment, cet algorithme est à destination du professeur, pas de l'élève
 # 
-# Penser Ã  choisir la valeur de $N$ nombre d'expÃ©riences alÃ©atoires Ã  rÃ©aliser.
-
-# In[2]:
-
+# Penser à choisir la valeur de $N$ nombre d'expériences aléatoires à réaliser
 
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -515,7 +445,7 @@ from random import *
 from IPython.display import HTML
 
 ###########
-N = 300   # Nombre d'expÃ©riences alÃ©atoires Ã  rÃ©aliser
+N = 300   # Nombre d'expériences aléatoires à réaliser
 ###########
 
 def de_truque():
