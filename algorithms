@@ -12,18 +12,19 @@ tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas '''
     return (x-pas,x)
 
 ---------------------------------------------------------------------------------------------------
-2. Déterminer si un entier naturel $a$ est multiple d'un entier naturel $b$
-
-# On peut résoudre ce problème à l'aide de plusieurs algorithmes selon qu'on veuille ou non
-# utiliser le reste de la division euclidienne fourni par Python
-
 def AestmultipledeB(a,b):
+''' Déterminer si un entier naturel a est multiple d'un entier naturel b
+utilise le reste de la division euclidienne fourni par Python '''
+
     if a%b == 0:
         return True
     else:
         return False
 
 def AestmultipledeB_2(a,b):
+''' Déterminer si un entier naturel a est multiple d'un entier naturel b
+n utilise pas le reste de la division euclidienne fourni par Python '''
+
     n = 0  
     while n*b < a:
         n = n+1
@@ -32,8 +33,7 @@ def AestmultipledeB_2(a,b):
     else:
         return False
 
-# ---------------------------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------------------
 # ## 3. Pour des entiers $a$ et $b$ donnés, déterminer le plus grand multiple de $b$ inférieur ou égal à $a$
 
 # On suppose que $b\leqslant a$ et on teste successivement les multiples de $b$ tant qu'ils sont
