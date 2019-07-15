@@ -1,11 +1,11 @@
-# # Partie "Nombres et calculs"
+Partie "Nombres et calculs"
+---------------------------------------------------------------------------------------------------
 
-# ## 1. Déterminer par balayage un encadrement de $\sqrt{2}$ d'amplitude inférieure ou égale à  $10^{-n}$
+def BalayageRacine2(pas):
+''' encadrement de sqrt{2} d'amplitude inférieure ou égale à un pas fixe
+la fonction carré etant croisante, on part de 1 et on calcule les carrés des nombres
+tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas '''
 
-# On utilise le fait que la fonction carré est croisante et, en partant de 1,
-# on calcule les carrés des nombres tant qu'ils sont plus petits que 2, en avançant à  chaque fois d'un pas de $10^{-n}$
-
-def BalayageRacine2(pas):   # Le pas sera de la forme 1O^{-n}
     x = 1
     while x*x <=2:
         x = x + pas
