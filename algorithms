@@ -11,9 +11,8 @@ tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas '''
         x = x + pas
     return (x-pas,x)
 
-# ---------------------------------------------------------------------------------------------------
-
-# ## 2. Déterminer si un entier naturel $a$ est multiple d'un entier naturel $b$
+---------------------------------------------------------------------------------------------------
+2. Déterminer si un entier naturel $a$ est multiple d'un entier naturel $b$
 
 # On peut résoudre ce problème à l'aide de plusieurs algorithmes selon qu'on veuille ou non
 # utiliser le reste de la division euclidienne fourni par Python
