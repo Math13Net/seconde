@@ -1,10 +1,11 @@
+---------------------------------------------------------------------------------------------------
 Partie "Nombres et calculs"
 ---------------------------------------------------------------------------------------------------
 
 def BalayageRacine2(pas):
-''' encadrement de sqrt{2} d'amplitude inférieure ou égale à un pas fixe
-la fonction carré etant croisante, on part de 1 et on calcule les carrés des nombres
-tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas '''
+# """ encadrement de sqrt{2} d'amplitude inférieure ou égale à un pas fixe
+# la fonction carré etant croisante, on part de 1 et on calcule les carrés des nombres
+# tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas """
 
     x = 1
     while x*x <=2:
@@ -13,8 +14,8 @@ tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas '''
 
 ---------------------------------------------------------------------------------------------------
 def AestmultipledeB(a,b):
-''' Déterminer si un entier naturel a est multiple d'un entier naturel b
-utilise le reste de la division euclidienne fourni par Python '''
+# """ Déterminer si un entier naturel a est multiple d'un entier naturel b
+# utilise le reste de la division euclidienne fourni par Python """
 
     if a%b == 0:
         return True
@@ -22,8 +23,8 @@ utilise le reste de la division euclidienne fourni par Python '''
         return False
 
 def AestmultipledeB_2(a,b):
-''' Déterminer si un entier naturel a est multiple d'un entier naturel b
-n utilise pas le reste de la division euclidienne fourni par Python '''
+# """ Déterminer si un entier naturel a est multiple d'un entier naturel b
+# n utilise pas le reste de la division euclidienne fourni par Python """
 
     n = 0  
     while n*b < a:
@@ -34,49 +35,27 @@ n utilise pas le reste de la division euclidienne fourni par Python '''
         return False
 
 ---------------------------------------------------------------------------------------------
-# ## 3. Pour des entiers $a$ et $b$ donnés, déterminer le plus grand multiple de $b$ inférieur ou égal à $a$
-
-# On suppose que $b\leqslant a$ et on teste successivement les multiples de $b$ tant qu'ils sont
-# inférieurs ou égaux à $a$. La fonction renvoie le multiple de $b$ précédent donc $(n-1)\times b$
-# 
-# **Remarque:**
-# 
-# On peut améliorer l'algorithme en commençant par tester si $b\leqslant a$
-
 def PlusGrandMultiple(a,b):
+# """ a et b donnés, déterminer le plus grand multiple de b inférieur ou égal à a """
     n = 1
     while n*b<=a:
         n = n+1
     return (n-1)*b
 
 # ----------------------------------------------------------------------------------------------------
-
-# ## 4. Déterminer si un entier naturel est premier
-
-# On utilise l'opération **n%i** qui renvoie le reste de la division euclidienne de $n$ par $i$
-# On teste tous les entiers compris entre 2 et $n-1$ pour savoir s'ils sont diviseurs de $n$
-# 
-# **Remarques:** 
-# - La fonction utilise le fait que dÃ¨s qu'un appel Ã  **return** est effectuÃ©, la fonction d'arrÃªte.
-# - On peut amÃ©liorer l'algorithme en s'arrÃªtant plus tÃ´t et n'allant pas jusqu'Ã  $n$ dans la boucle *Pour*.
-
 def EstilPremier(n):
+# """ détermine si un entier naturel est premier """
+
     for i in range(2,n):
         if n%i==0:
             return False
     return True
 
-# ### Une variante de l'algorithme basée sur l'obtention de la liste des diviseurs
-# On peut créer une fonction qui détermine dans un premier temps la liste des diviseurs de l'entier $n$
-# puis qui teste si la longueur de cette liste est égale à 2 (cas d'un nombre premier) ou pas
-# 
-# **Remarque:**
-# 
-# La fonction renvoie un booléen, qu'il est facile de récupérer ensuite dans un autre fonction,
-# et la liste des diviseurs: il est en effet intéressant dans un premier temps d'observer cette liste,
-# on peut ensuite s'en dispenser et ne garder que le boolÃ©en.
-
 def EstilPremier2(n):
+# """ une variante basée sur l'obtention de la liste des diviseurs
+# on peut créer une fonction qui détermine la liste des diviseurs de n 
+# puis on teste si la longueur de cette liste est égale à 2 """
+
     ListeDiviseurs=[]
     for i in range(1,n+1):
         if n%i==0:
@@ -86,19 +65,15 @@ def EstilPremier2(n):
     else:
         return False,ListeDiviseurs
 
-# ### Une variante utilisant la fonction précédemment définie pour savoir si $a$ est un multiple de $b$
-
-# Plutôt que d'utiliser la division euclidienne de Python, on utilse la fonction précédemment définie
-# ce qui renforce la conception modulaire des algorithmes chez les élèves
-
 def EstilPremier3(n):
+# """ une variante utilisant la fonction précédemment définie pour savoir si a est un multiple de b """
+
     for i in range(2,n):
         if AestmultipledeB_2(n,i):
             return False
     return True
 
 # --------------------------------------------------------------------------------------------
-
 # ## 5. Déterminer la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée.
 
 # On s'inspire de l'algorithme utilisé pour résoudre le problème "Pour des entiers $a$ et $b$ donnés,
@@ -108,6 +83,10 @@ def EstilPremier3(n):
 # où $a$ n'est pas une puissance de $b$
 
 def PremierePuissanceInferieure(a,b):
+# """ détermine la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée.
+# on cherche la première puissance de b inférieure (strictement) ou supérieure (strictement) à a dans le cas
+# où a n'est pas une puissance de b """ 
+
     puissance = 1
     while puissance < a:
         puissance = puissance * b
@@ -123,6 +102,8 @@ def PremierePuissanceSuperieure(a,b):
 # si ce n'est pas le cas, renvoyer les deux puissances de $b$ qui encadrent $a$
 
 def PremieresPuissances(a,b):
+# """ On peut améliorer l'algorithme en testant d'abord sir le nombre $a$ est une puissance de b puis,
+# si ce n'est pas le cas, renvoyer les deux puissances de b qui encadrent a """ 
     n=0
     while b**n<a:
         n = n+1
@@ -131,9 +112,9 @@ def PremieresPuissances(a,b):
     else:
         return PremierePuissanceInferieure(a,b),PremierePuissanceSuperieure(a,b)
 
-# -------------------------------------------------------------------------------------------
-
-# # Partie "Géométrie"
+-------------------------------------------------------------------------------------------
+Partie "Géométrie"
+---------------------------------------------------------------------------------------------------
 
 # ## 1. Etudier l'alignement de trois points dans le plan
 
