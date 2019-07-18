@@ -210,59 +210,61 @@ def LongueurCourbe(f,a,b,pas):
 -----------------------------------------------------------------------------------------------------------------------------
 Partie "Statistiques et Probabilités"
 
-Pour des données réelles ou issues d'une simulation, lire et comprendre une fonction écrite en Python
-renvoyant la moyenne $m$, l'écart type $s$, et la proportion d'éléments appartenant à $[m-2s,m+2s]$
+# Partie "Statistiques et Probabilités"
 
-On peut procÃ©der en deux temps:
- 
-- D'abord créer une fonction permettant de simuler une expérience aléatoire
-- Créer une fonction répondant renvoyant la moyenne $m$, l'écart type $s$, et la proportion d'éléments
-appartenant à $[m-2s,m+2s]$. Cette fonction peut également être utilisée pour toutes les listes de données numériques réelles
+# Pour des données réelles ou issues d'une simulation, lire et comprendre une fonction écrite en Python
+# renvoyant la moyenne m, l'écart type s, et la proportion d'éléments appartenant à [m-2s,m+2s]
 
-On choisit $n$ personnes dont on mesure le taux de glycémie dans le sang
-(qui suit la loi normale d'espérance $1$ $g.L^{-1}$ et d'écart-type $0,1$ $g.L^{-1}$ ce qui
-permet de simuler une liste et de la donner *brute* aux élèves)
+# On peut proceder en deux temps:
+# - créer une fonction permettant de simuler une expérience aléatoire
+# - créer une autre fonction répondant renvoyant la moyenne m, l'écart type s, et la proportion d'éléments
+# appartenant à [m-2s,m+2s]. Cette fonction peut également être utilisée pour toutes les listes de données numériques réelles
+
+# On choisit n personnes dont on mesure le taux de glycémie dans le sang
+# (qui suit la loi normale d'espérance 1 g/l et d'écart-type 0.1 g/l ce qui
+# permet de simuler une liste et de la donner brute aux élèves)
+# rappel: si X suit N(0,1^2) alors Z = 0.1*X + 1 suit N(1,0.1^2)
 
 from math import *
 from random import *
 import numpy.random as alea
 
 def TauxGlycemie(n):
-    Liste = []
-    for compteur in range(n):
-        glycemie = alea.randn()*0.1+1  # randn() permet de simuler la loi normale centrÃ©e rÃ©duite
-        Liste = Liste + [glycemie]
-    return Liste
+  Liste = []
+  for compteur in range(n):
+    glycemie = alea.randn()*0.1+1  # randn() permet de simuler la loi normale centree reduite
+    Liste = Liste + [glycemie]
+  return Liste
 
 def Moyenne(Liste):
-    n = len(Liste)  # Longueur de la liste
-    somme = 0
-    for t in Liste:
-        somme = somme + t
-    moyenne = somme / n
-    return moyenne
+  n = len(Liste)  # Longueur de la liste
+  somme = 0
+  for t in Liste:
+    somme = somme + t
+  moyenne = somme / n
+  return moyenne
 
 def Ecarttype(Liste):
-    n = len(Liste)
-    somme_ecart_moyenne = 0
-    m = Moyenne(Liste)
-    for t in Liste:
-        somme_ecart_moyenne = somme_ecart_moyenne + (t-m)**2
-    variance = somme_ecart_moyenne / n
-    ecart_type = sqrt(variance)
-    return ecart_type
+  n = len(Liste)
+  somme_ecart_moyenne = 0
+  m = Moyenne(Liste)
+  for t in Liste:
+    somme_ecart_moyenne = somme_ecart_moyenne + (t-m)**2
+  variance = somme_ecart_moyenne / n
+  ecart_type = sqrt(variance)
+  return ecart_type
 
 def Parametres(Liste):
-    m = Moyenne(Liste)
-    s = Ecarttype(Liste)
+  m = Moyenne(Liste)
+  s = Ecarttype(Liste)
     
-    nombre_dans_intervalle = 0
-    for t in Liste:
-        if m-2*s < t and t < m+2*s:
-            nombre_dans_intervalle = nombre_dans_intervalle + 1
-    frequence = nombre_dans_intervalle / len(Liste)
+  nombre_dans_intervalle = 0
+  for t in Liste:
+    if m-2*s < t and t < m+2*s:
+      nombre_dans_intervalle = nombre_dans_intervalle + 1
+  frequence = nombre_dans_intervalle / len(Liste)
     
-    return m, s, frequence
+  return m, s, frequence
 
 # **Remarque:** Il est intéressant également d'ajouter une représentation graphique à la fonction précédente pour
 # renforcer le côté "exceptionnel" des valeurs à l'extérieur de l'intervalle $[m-2s;m+2s]$
