@@ -74,67 +74,43 @@ def EstilPremier3(n):
   return True
 
 --------------------------------------------------------------------------------------------
-# ## 5. Déterminer la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée.
-
-# On s'inspire de l'algorithme utilisé pour résoudre le problème "Pour des entiers $a$ et $b$ donnés,
-# déterminer le plus grand multiple de $b$ inférieur ou égal à $a$"
-# 
-# On cherche la première puissance de $b$ inférieure (strictement) ou supérieure (strictement) à $a$ dans le cas
-# où $a$ n'est pas une puissance de $b$
-
 def PremierePuissanceInferieure(a,b):
-# """ détermine la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée.
-# on cherche la première puissance de b inférieure (strictement) ou supérieure (strictement) à a dans le cas
-# où a n'est pas une puissance de b """ 
+  """ détermine la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée
+  on cherche la première puissance de b inférieure (strictement) ou supérieure (strictement) à a dans le cas
+  où a n'est pas une puissance de b """ 
 
-    puissance = 1
-    while puissance < a:
-        puissance = puissance * b
-    return puissance/b
+  puissance = 1
+  while puissance < a:
+    puissance = puissance * b
+  return puissance/b
 
 def PremierePuissanceSuperieure(a,b):
-    puissance = 1
-    while puissance < a:
-        puissance = puissance * b
-    return puissance
-
-# **Remarque:** On peut améliorer l'algorithme en testant d'abord sir le nombre $a$ est une puissance de $b$ puis,
-# si ce n'est pas le cas, renvoyer les deux puissances de $b$ qui encadrent $a$
+  puissance = 1
+  while puissance < a:
+    puissance = puissance * b
+  return puissance
 
 def PremieresPuissances(a,b):
-# """ On peut améliorer l'algorithme en testant d'abord sir le nombre $a$ est une puissance de b puis,
-# si ce n'est pas le cas, renvoyer les deux puissances de b qui encadrent a """ 
-    n=0
-    while b**n<a:
-        n = n+1
-    if b**n==a:
-        return 'a est une puissance de b'
-    else:
-        return PremierePuissanceInferieure(a,b),PremierePuissanceSuperieure(a,b)
+  """ On peut améliorer l'algorithme en testant d'abord sir le nombre $a$ est une puissance de b puis,
+  si ce n'est pas le cas, renvoyer les deux puissances de b qui encadrent a """ 
+  n=0
+  while b**n<a:
+    n = n+1
+  if b**n==a:
+    return 'a est une puissance de b'
+  else:
+    return PremierePuissanceInferieure(a,b),PremierePuissanceSuperieure(a,b)
 
--------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 Partie "Géométrie"
 ---------------------------------------------------------------------------------------------------
 
-# ## 1. Etudier l'alignement de trois points dans le plan
+# Etudier l'alignement de trois points dans le plan, version 1
 
-# La référence à cet algorithme apparait dans le programme officiel dans la partie "Représenter et caractériser les droites du plan"
-# On peut donc utiliser cette approche pour étudier l'alignement de trois points du plan
-# On peut également faire référence à la colinéarité des vecteurs en utilisant le déterminant de deux vecteurs
-# 
-# à noter qu'il faut prendre garde aux tests d'égalités avec des flottants !
-
-# ### Version utilisant les équations de droites
-
-# On détermine le coefficient directeur et l'ordonnée à l'origine de la droite formée par les deux premiers points
-# (dans le cas où ils ont des abscisses différentes) puis on teste si les coordonnées du troisième point
-# vérifient ou non l'équation de la droite
-
-
-def CoefficientDirecteur(x1,y1,x2,y2): # On se place dans le cas oÃ¹ x1 est diffÃ©rent de x2
+def CoefficientDirecteur(x1,y1,x2,y2): # On se place dans le cas où x1 est différent de x2
     return (y2-y1)/(x2-x1)
 
-def OrdonneeALorigine(x1,y1,x2,y2): # On se place dans la cas oÃ¹ x1 est diffÃ©rence de x3
+def OrdonneeALorigine(x1,y1,x2,y2): # On se place dans la cas où x1 est différence de x3
     return y1-CoefficientDirecteur(x1,y1,x2,y2)*x1
 
 def PointsAlignes(x1,y1,x2,y2,x3,y3):
@@ -151,10 +127,7 @@ def PointsAlignes(x1,y1,x2,y2,x3,y3):
         else:
             return False
 
-# ### Version utilisant la colinéarité de vecteurs
-
-# On crée d'abord une fonction calculant le déterminant de deux vecteurs que l'on réinvestit ensuite
-
+# Version 2, utilisant la colinéarité de vecteurs
 def determinant(xu,yu,xv,yv):
     return xu*yv-yu*xv
 
@@ -164,26 +137,18 @@ def PointsAlignes2(x1,y1,x2,y2,x3,y3):
     else:
         return False
 
-# --------------------------------------------------------------------------------------------------------------------------
-
-# ## 2. Déterminer une équation de droite passant par deux points donnés
-
-# Dans le cas où les deux points, que l'on suppose distincts !, ont la même abscisse,
-# on renvoit simplement l'équation sous la forme $x=c$. Dans l'autre cas,
-# on renvoit l'équation réduite de la droite en utilisant les fonctions permettant de déterminer
-# le coefficient directeur et l'ordonnée à l'origine ci-dessus
-
+--------------------------------------------------------------------------------------------------------------------------
 def EquationDeDroite(x1,y1,x2,y2):
+"""  Détermine une équation de droite (du type x=c ou y=ax+b) passant par deux points donnés """
     if abs(x1-x2)<10**(-12):
-        return 'x='+str(x1)  # on revoie l'Ã©quation sous forme d'un texte
+        return 'x='+str(x1)  # on revoie l'équation sous forme d'un texte
     else:
         a = CoefficientDirecteur(x1,y1,x2,y2)
         b = OrdonneeALorigine(x1,y1,x2,y2)
         return 'y='+str(a)+'*x+'+str(b)
 
-# ----------------------------------------------------------------------------------------------------------------------------
-
-# # Partie "Fonctions"
+----------------------------------------------------------------------------------------------------------------------------
+Partie "Fonctions"
 
 # ## 1. Pour une fonction dont le tableau de variations est donné, algorithmes d'approximation numérique
 # d'un extremum (balayage, dichotomie)
@@ -223,7 +188,6 @@ def BalayageExtremum2(pas):
     return x_cherche,maximum_provisoire
 
 # ------------------------------------------------------------------------------------------------
-
 # ## 2. Algorithme de calcul approché de longueur d'une portion de courbe représentative de fonction
 
 # On définit d'abord une fonction permettant de calculer la distance entre deux points dans un repère orthonormé
@@ -249,7 +213,6 @@ def LongueurCourbe(f,a,b,pas):
     return longueur
 
 # -----------------------------------------------------------------------------------------------------------------------------
-
 # # Partie "Statistiques et Probabilités"
 
 # ## 1. Pour des données réelles ou issues d'une simulation, lire et comprendre une fonction écrite en Python
@@ -361,7 +324,6 @@ def Parametres2(Liste):
     return m, s, frequence
 
 # -------------------------------------------------------------------------------------------------------
-
 # ### 2. Lire et comprendre une fonction Python renvoyant le nombre ou la fréquence de succès
 # dans un échantillon de taille $n$ pour une expérience aléatoire à deux issues
 
@@ -383,7 +345,6 @@ def frequence_succes(n,p):
     return nombre_succes(n,p)/n
 
 # -------------------------------------------------------------------------------------------------------
-
 # ### 3. Observer la loi des grands nombres à l'aide d'une simulation sur Python ou tableur
 
 # On considère un dé à 6 faces dont la face 6 a été remplacée par 1
