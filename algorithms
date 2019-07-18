@@ -3,77 +3,77 @@ Partie "Nombres et calculs"
 ---------------------------------------------------------------------------------------------------
 
 def BalayageRacine2(pas):
-# """ encadrement de sqrt{2} d'amplitude inférieure ou égale à un pas fixe
-# la fonction carré etant croisante, on part de 1 et on calcule les carrés des nombres
-# tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas """
+  """ encadrement de sqrt{2} d'amplitude inférieure ou égale à un pas fixe
+  la fonction carré etant croisante, on part de 1 et on calcule les carrés des nombres
+  tant qu'ils sont plus petits que 2, en avançant à chaque fois du pas """
 
-    x = 1
-    while x*x <=2:
-        x = x + pas
-    return (x-pas,x)
+  x = 1
+  while x*x <=2:
+      x = x + pas
+  return (x-pas,x)
 
 ---------------------------------------------------------------------------------------------------
 def AestmultipledeB(a,b):
-# """ Déterminer si un entier naturel a est multiple d'un entier naturel b
-# utilise le reste de la division euclidienne fourni par Python """
+  """ Déterminer si un entier naturel a est multiple d'un entier naturel b
+  utilise le reste de la division euclidienne fourni par Python """
 
-    if a%b == 0:
-        return True
-    else:
-        return False
+  if a%b == 0:
+    return True
+  else:
+    return False
 
 def AestmultipledeB_2(a,b):
-# """ Déterminer si un entier naturel a est multiple d'un entier naturel b
-# n utilise pas le reste de la division euclidienne fourni par Python """
+  """ Déterminer si un entier naturel a est multiple d'un entier naturel b
+  n utilise pas le reste de la division euclidienne fourni par Python """
 
-    n = 0  
-    while n*b < a:
-        n = n+1
-    if n*b==a:
-        return True
-    else:
-        return False
+  n = 0  
+  while n*b < a:
+    n = n+1
+  if n*b==a:
+    return True
+  else:
+    return False
 
 ---------------------------------------------------------------------------------------------
 def PlusGrandMultiple(a,b):
-# """ a et b donnés, déterminer le plus grand multiple de b inférieur ou égal à a """
-    n = 1
-    while n*b<=a:
-        n = n+1
-    return (n-1)*b
+  """ a et b donnés, déterminer le plus grand multiple de b inférieur ou égal à a """
+  n = 1
+  while n*b<=a:
+    n = n+1
+  return (n-1)*b
 
-# ----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 def EstilPremier(n):
-# """ détermine si un entier naturel est premier """
+  """ détermine si un entier naturel est premier """
 
-    for i in range(2,n):
-        if n%i==0:
-            return False
-    return True
+  for i in range(2,n):
+    if n%i==0:
+      return False
+  return True
 
 def EstilPremier2(n):
-# """ une variante basée sur l'obtention de la liste des diviseurs
-# on peut créer une fonction qui détermine la liste des diviseurs de n 
-# puis on teste si la longueur de cette liste est égale à 2 """
+  """ une variante basée sur l'obtention de la liste des diviseurs
+  on peut créer une fonction qui détermine la liste des diviseurs de n 
+  puis on teste si la longueur de cette liste est égale à 2 """
 
-    ListeDiviseurs=[]
-    for i in range(1,n+1):
-        if n%i==0:
-            ListeDiviseurs=ListeDiviseurs+[i]  # On peut aussi utiliser la mÃ©thode .append
-    if len(ListeDiviseurs)==2:
-        return True,ListeDiviseurs
-    else:
-        return False,ListeDiviseurs
+  ListeDiviseurs=[]
+  for i in range(1,n+1):
+    if n%i==0:
+      ListeDiviseurs=ListeDiviseurs+[i]  # On peut aussi utiliser la mÃ©thode .append
+  if len(ListeDiviseurs)==2:
+    return True,ListeDiviseurs
+  else:
+    return False,ListeDiviseurs
 
 def EstilPremier3(n):
-# """ une variante utilisant la fonction précédemment définie pour savoir si a est un multiple de b """
+  """ une variante utilisant la fonction précédemment définie pour savoir si a est un multiple de b """
 
-    for i in range(2,n):
-        if AestmultipledeB_2(n,i):
-            return False
-    return True
+  for i in range(2,n):
+    if AestmultipledeB_2(n,i):
+      return False
+  return True
 
-# --------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 # ## 5. Déterminer la première puissance d'un nombre positif donné supérieure ou inférieure à une valeur donnée.
 
 # On s'inspire de l'algorithme utilisé pour résoudre le problème "Pour des entiers $a$ et $b$ donnés,
