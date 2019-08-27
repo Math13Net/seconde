@@ -5,6 +5,13 @@ Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-p
 
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
+-----------------------------------------------------------------------------------------------------------------------------
+## <a name="cours"></a> cours seconde 2019/2020
+* ### [01 - les nombres](https://www.dropbox.com/home/Math13Net/seconde-2019-2020?preview=Seconde+-+Chapitre+1.pdf)
+* ### 
+* ###
+* ###
+* ###
 
 
 -----------------------------------------------------------------------------------------------------------------------------
