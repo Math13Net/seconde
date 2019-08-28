@@ -7,7 +7,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="cours"></a> cours seconde 2019/2020
-* ### [01 - les nombres](https://www.dropbox.com/home/Math13Net/seconde-2019-2020?preview=01_nombres_seconde.pdf)
+* ### [01 - les nombres]()
 * ### 
 * ###
 * ###
