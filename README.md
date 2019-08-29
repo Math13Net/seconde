@@ -24,7 +24,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 [progression Lycée Pré de Cordy 2019-2020](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
-[manuel scolaire au Lycée Pré de Cordy en seconde](http://lycee-predecordy-sarlat.com/wp-content/uploads/2019/08/2nde.pdf)
+[manuel scolaire et calculatrice au Lycée Pré de Cordy en seconde](http://lycee-predecordy-sarlat.com/wp-content/uploads/2019/08/2nde.pdf)
 
 ---------------------------------------------------------------------------------------------------------------------------
 [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
