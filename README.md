@@ -12,8 +12,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [équation du premier degré](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/02_equations_premier_degre/schema_eq_1_degre.pdf)
 * ### [inéquation du premier degré](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/03_inequation_premier_degre/schema_ineq_1_degre.pdf)
 * ### [fonction 1/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/04_fonctions_lineaire_affine/schema_fctn_res_graph.pdf)
-* [fonction 2/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/05_fonctions_carrees_inverses/schema_autres_fctn.pdf)
-* [approfondissement : système 3 x 3](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermSspe/04_matrices_et_suites/04_cours_algorithme_systeme_3_3.pdf)
+* ### [fonction 2/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/05_fonctions_carrees_inverses/schema_autres_fctn.pdf)
+* ### [approfondissement : système 3 x 3](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermSspe/04_matrices_et_suites/04_cours_algorithme_systeme_3_3.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours seconde 2019/2020
