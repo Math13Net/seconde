@@ -32,3 +32,4 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
+## [programme officiel](https://github.com/Math13Net/seconde_7/blob/master/Consignes%202%C2%B07%202019-2020.pdf)
