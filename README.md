@@ -9,7 +9,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## <a name="cours"></a> cours seconde 2019/2020
 * ### [les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 * ### [les vecteurs](https://github.com/Math13Net/seconde_7/blob/master/02%20-%20seconde.pdf)
-* ### [équations - inéquations]()
+* ### [équations - inéquations](https://github.com/Math13Net/seconde_7/blob/master/03%20-%20seconde.pdf)
+* ### [pourcentage - proportion - statistiques]()
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours seconde 2019/2020
