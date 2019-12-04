@@ -35,4 +35,4 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ---------------------------------------------------------------------------------------------------------------------------
 ## [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
 ## [programme officiel](https://github.com/Math13Net/seconde_7/blob/master/seconde_math_programme.pdf)
-## [bien démarrer avec python](https://frederic-junier.org/)
+## [bien démarrer avec python](https://www.frederic-junier.org/PythonSeconde/Python_Seconde_Parc/accueil_python_2nde.html)
