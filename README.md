@@ -1,4 +1,4 @@
-# Seconde - Lycée Pré de Cordy - sarlat - 2019/2020
+# Seconde - Lycée Jean Monnet - Montpellier - 2021/2022
 
 Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-problem-solving-algorithm/
 ---------------------------------------------------------------------------------------------------------------------------
@@ -6,14 +6,14 @@ Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-p
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
-## <a name="cours"></a> cours seconde 2019/2020
+## <a name="cours"></a> cours math seconde
 * ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 * ### [2 - les vecteurs](https://github.com/Math13Net/seconde_7/blob/master/02%20-%20seconde.pdf)
 * ### [3 - équations - inéquations](https://github.com/Math13Net/seconde_7/blob/master/03%20-%20seconde.pdf)
 * ### [4 - pourcentage - proportion - statistiques](https://github.com/Math13Net/seconde_7/blob/master/04%20-%20seconde.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
-## <a name="resume"></a> résumé de cours seconde 2019/2020
+## <a name="resume"></a> résumé de cours math seconde
 * ### [les nombres 1/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/01_les_nombres/schema_fractions.pdf)
 * ### [les nombres 2/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/01_les_nombres/schema_ens_nbres.pdf)
 * ### [équation du premier degré](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/02_equations_premier_degre/schema_eq_1_degre.pdf)
@@ -27,7 +27,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Progression , matériels, consignes ... en seconde au Lycée Pré de Cordy - 2019/2020
+## Progression , matériels, consignes ... en seconde 10 au Lycée Jean Monnet - 2021/2022
 * ### [progression 2019-2020](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
 * ### [manuel scolaire et calculatrice 2019-2020](http://lycee-predecordy-sarlat.com/wp-content/uploads/2019/08/2nde.pdf)
 * ### [consignes 2019-2020](https://github.com/Math13Net/seconde/blob/master/Consignes%202%C2%B07%202019-2020.pdf)
