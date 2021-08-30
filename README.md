@@ -8,9 +8,6 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="cours"></a> cours math seconde
 * ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
-* ### [2 - les vecteurs](https://github.com/Math13Net/seconde_7/blob/master/02%20-%20seconde.pdf)
-* ### [3 - équations - inéquations](https://github.com/Math13Net/seconde_7/blob/master/03%20-%20seconde.pdf)
-* ### [4 - pourcentage - proportion - statistiques](https://github.com/Math13Net/seconde_7/blob/master/04%20-%20seconde.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
@@ -28,9 +25,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Progression , matériels, consignes ... en seconde 10 au Lycée Jean Monnet - 2021/2022
-* ### [progression 2019-2020](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
-* ### [manuel scolaire et calculatrice 2019-2020](http://lycee-predecordy-sarlat.com/wp-content/uploads/2019/08/2nde.pdf)
-* ### [consignes 2019-2020](https://github.com/Math13Net/seconde/blob/master/Consignes%202%C2%B07%202019-2020.pdf)
+* ### [progression 2021-2020](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
