@@ -25,7 +25,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Progression , matériels, consignes ... en seconde 10 au Lycée Jean Monnet - 2021/2022
-* ### [progression 2021-2020](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
+* ### [progression 2021-2022](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
