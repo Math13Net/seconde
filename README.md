@@ -6,7 +6,7 @@ Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-p
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## 🌈 [cours](#cours)
 ## 🔥 [fiches, résumés](#resume)
-## 🔥 [devoirs](#devoir)
+## 🚀 [devoirs](#devoir)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="cours"></a> cours math seconde
