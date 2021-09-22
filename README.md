@@ -20,7 +20,9 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [approfondissement : système 3 x 3](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermSspe/04_matrices_et_suites/04_cours_algorithme_systeme_3_3.pdf)
 * ### [relation entre quadrilatères](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermS/09_nombres_complexes/09_relations_entre_quadrilateres.pdf)
 
-
+-----------------------------------------------------------------------------------------------------------------------------
+## <a name="devoir"></a> devoir math seconde
+* ### [devoir 1](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
