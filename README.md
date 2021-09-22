@@ -22,7 +22,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="devoir"></a> devoir math seconde
-* ### [devoir 1](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
+* ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds1.pdf)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
