@@ -13,7 +13,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 * ### [2 - repère et coordonnées]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
 * ### [3 - notion de fonction](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
-* ### [4 - pourcentage - statistique]()
+* ### [4 - pourcentage - statistique](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
