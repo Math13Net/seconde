@@ -5,6 +5,7 @@ Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-p
 
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## 🌈 [cours](#cours)
+## 🌈 [ex](#ex)
 ## 🔥 [fiches, résumés](#resume)
 ## 🚀 [devoirs](#devoir)
 
@@ -14,6 +15,21 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [2 - repère et coordonnées]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
 * ### [3 - notion de fonction](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
 * ### [4 - pourcentage - statistique](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
+* #### [video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka)
+* #### [video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka)
+* #### [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka)
+* #### [video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka)
+* #### [video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka)
+
+-----------------------------------------------------------------------------------------------------------------------------
+## <a name="ex"></a> exercice math seconde
+* ### 4 - pourcentage - statistique
+* #### [sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf)
+* #### [corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
+* #### [sujet 2]()
+* #### [corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
+* #### [sujet 3]()
+* #### [corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
