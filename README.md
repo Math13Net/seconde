@@ -14,6 +14,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 * ### [2 - repère et coordonnées]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
 * ### [3 - notion de fonction](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
+#### [video 1]() - [video 2]() - [video 3]() - [video 4]() - [video 5]() - [video 6]()
+
 * ### [4 - pourcentage - statistique](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
   #### [video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka)
 
