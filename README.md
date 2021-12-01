@@ -21,8 +21,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## <a name="ex"></a> exercice math seconde
 * ### 4 - pourcentage - statistique
   #### [sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) - [corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
-  #### [sujet 2]() - [corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
-  #### [sujet 3]() - [corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
+  #### [sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) - [corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
+  #### [sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) - [corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
