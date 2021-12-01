@@ -14,7 +14,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
 * ### [2 - repère et coordonnées]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
 * ### [3 - notion de fonction](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
-#### [video 1]() - [video 2]() - [video 3]() - [video 4]() - [video 5]() - [video 6]()
+  #### [video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
 
 * ### [4 - pourcentage - statistique](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
   #### [video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka)
