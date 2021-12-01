@@ -39,7 +39,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## <a name="devoir"></a> devoir math seconde
 * ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds1.pdf)
 * ### [devoir 2](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds2.pdf)
-* ### [devoir 3](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
+* ### [devoir 3]()
+* ### [devoir 4](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Progression , matériels, consignes ... en seconde 10 au Lycée Jean Monnet - 2021/2022
