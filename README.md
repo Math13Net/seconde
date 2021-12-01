@@ -49,7 +49,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [devoir 4](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Progression , matériels, consignes ... en seconde 10 au Lycée Jean Monnet - 2021/2022
+## Progression , algo - Lycée Jean Monnet seconde - 2021/2022
 * ### [progression 2021-2022](https://github.com/Math13Net/seconde/blob/master/progression_seconde)
 
 ---------------------------------------------------------------------------------------------------------------------------
