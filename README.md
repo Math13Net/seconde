@@ -21,6 +21,9 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
+
+* ### [82 exercices corrigés en seconde](http://ndm.maths.free.fr/Cours2nde/Exercices.pdf)
+
 * ### 3 - notion de fonction
   #### [sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) - [corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
   #### [sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) - [corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
