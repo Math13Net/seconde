@@ -43,7 +43,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [fonction 1/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/04_fonctions_lineaire_affine/schema_fctn_res_graph.pdf) - [fonction 2/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/05_fonctions_carrees_inverses/schema_autres_fctn.pdf)
 * ### [approfondissement : système 3 x 3](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermSspe/04_matrices_et_suites/04_cours_algorithme_systeme_3_3.pdf)
 * ### [relation entre quadrilatères](https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermS/09_nombres_complexes/09_relations_entre_quadrilateres.pdf)
-* ### [pourcentage]()
+* ### [pourcentage](https://github.com/Math13Net/seconde/blob/master/pourcentage.pdf)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="devoir"></a> devoir math seconde
