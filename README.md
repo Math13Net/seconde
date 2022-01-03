@@ -11,13 +11,13 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="cours"></a> cours math seconde
-* ### [1 - les nombres réels](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
-* ### [2 - repère et coordonnées]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
-* ### [3 - notion de fonction](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
-  #### [video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
+* ### [1 - les nombres réels : le cours](https://github.com/Math13Net/seconde_7/blob/master/01%20-%20seconde.pdf)
+* ### [2 - repère et coordonnées : le cours]( https://github.com/Math13Net/seconde/blob/master/02_seconde.pdf)
+* ### [3 - notion de fonction : le cours](https://github.com/Math13Net/seconde/blob/master/03_seconde.pdf)
+  #### [ex en video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [ex en video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [ex en video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
 
-* ### [4 - pourcentage - statistique](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
-  #### [video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka)
+* ### [4 - pourcentage - statistique : le cours](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
+  #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 5](https://youtu.be/dZ1arqz41Bg)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
@@ -31,9 +31,12 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 
 * ### 4 - pourcentage - statistique
-  #### [sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) - [corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
-  #### [sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) - [corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
-  #### [sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) - [corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
+  #### [pourcentage - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) - [pourcentage - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
+  #### [pourcentage - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) - [pourcentage - corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
+  #### [pourcentage - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) - [pourcentage - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
+  #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) - [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
+  #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) - [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
+  #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) - [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
