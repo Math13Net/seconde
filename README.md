@@ -1,6 +1,6 @@
 # :santa: Seconde - Lycée Jean Monnet - Montpellier - 2021/2022
 
-Magic Problem Solver Algorithm ;)) https://proftomcrick.com/2011/04/26/feynman-problem-solving-algorithm/
+Magic Problem Solver Algorithm : [feynman-problem-solving-algorithm](https://proftomcrick.com/2011/04/26/feynman-problem-solving-algorithm/)
 ---------------------------------------------------------------------------------------------------------------------------
 
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
