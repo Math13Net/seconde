@@ -20,7 +20,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 6](https://youtu.be/dZ1arqz41Bg)
 * ### [5 - vecteur : le cours](https://github.com/Math13Net/seconde/blob/master/05_seconde.pdf)
   #### [ex en video 1](https://youtu.be/8PyiMHtp1fE) - [ex en video 2](https://youtu.be/wnNzmod2tMM) - [ex en video 3](https://youtu.be/eQsMZTcniuY) - [ex en video 4](https://youtu.be/zcQPz4dfnn0) - [ex en video 5](https://youtu.be/nzABUzFM6p8) - [ex en video 6](https://youtu.be/JxYpPE6iPEA) - [ex en video 7](https://youtu.be/eX-_639Pfw8) - [ex en video 8](https://youtu.be/FjUbd9Pbhmg) - [ex en video 9](https://youtu.be/hp8v6YAQQRI) - [ex en video 10](https://youtu.be/dZ81uKVDGpE)  
-* ### [6 - équation - inéquations - IR : le cours]()
+* ### [6 - équation - inéquations - IR : le cours](https://github.com/Math13Net/seconde/blob/master/06_seconde.pdf)
   #### [ex en video 1]() - [ex en video 2]() - [ex en video 3]() - [ex en video 4]() - [ex en video 5]() - [ex en video 6]() - [ex en video 7]() - [ex en video 8]() - [ex en video 9]() - [ex en video 10]() 
 
 
