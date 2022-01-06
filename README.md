@@ -17,7 +17,12 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [ex en video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [ex en video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [ex en video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
 
 * ### [4 - pourcentage - statistique : le cours](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
-  #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 5](https://youtu.be/dZ1arqz41Bg)
+  #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 6](https://youtu.be/dZ1arqz41Bg)
+* ### [5 - vecteur : le cours]()
+  #### [ex en video 1]() - [ex en video 2]() - [ex en video 3]() - [ex en video 4]() 
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
@@ -37,6 +42,14 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) - [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
   #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) - [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) - [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
+
+* ### 5 - vecteur
+  #### [vecteur - sujet 1]() - [vecteur - corr 1]()
+  #### [vecteur - sujet 2]() - [vecteur - corr 2]()
+  #### [vecteur - sujet 3]() - [vecteur - corr 3]()
+  #### [vecteur - sujet 4]() - [vecetur - corr 4]()
+  #### [vecteur - sujet 5]() - [vecteur - corr 5]()
+  #### [vecteur - sujet 6]() - [vecteur - corr 6]() 
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
