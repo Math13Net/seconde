@@ -30,31 +30,31 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [82 exercices corrigés en seconde](http://ndm.maths.free.fr/Cours2nde/Exercices.pdf)
 
 * ### 3 - notion de fonction
-  #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) - [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
-  #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) - [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
-  #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) - [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
+  #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) et [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
+  #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) et [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
+  #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) et [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
 
 
 * ### 4 - pourcentage - statistique
-  #### [pourcentage - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) - [pourcentage - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
-  #### [pourcentage - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) - [pourcentage - corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
-  #### [pourcentage - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) - [pourcentage - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
-  #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) - [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
-  #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) - [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
-  #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) - [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
+  #### [pourcentage - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) et [pourcentage - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
+  #### [pourcentage - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) et [pourcentage - corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
+  #### [pourcentage - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) et [pourcentage - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
+  #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) et [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
+  #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) et [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
+  #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) et [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
 
 * ### 5 - vecteur
-  #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) - [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
-  #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) - [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
-  #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) - [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
-  #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) - [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
-  #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) - [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
-  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) - [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf) 
+  #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) et [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
+  #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) et [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) et [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) et [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
+  #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) et [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
+  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf) 
 * ### 6 - équation - inéquation - IR
-  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) - [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
-  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1.pdf) - [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1C.pdf)
-  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) - [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
-  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) - [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
+  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
+  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1C.pdf)
+  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
+  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
 
   
   
