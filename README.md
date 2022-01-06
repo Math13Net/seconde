@@ -44,12 +44,12 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) - [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
 
 * ### 5 - vecteur
-  #### [vecteur - sujet 1]() - [vecteur - corr 1]()
-  #### [vecteur - sujet 2]() - [vecteur - corr 2]()
-  #### [vecteur - sujet 3]() - [vecteur - corr 3]()
-  #### [vecteur - sujet 4]() - [vecetur - corr 4]()
-  #### [vecteur - sujet 5]() - [vecteur - corr 5]()
-  #### [vecteur - sujet 6]() - [vecteur - corr 6]() 
+  #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) - [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
+  #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) - [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) - [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) - [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
+  #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) - [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
+  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) - [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
