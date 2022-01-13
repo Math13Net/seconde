@@ -26,7 +26,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)
 
 * ### [7 - probabilité : le cours](https://github.com/Math13Net/seconde/blob/master/07_seconde.pdf)
-  #### [ex en video 1]() - [ex en video 2]() - [ex en video 3]() - [ex en video 4]() - [ex en video 5]() - [ex en video 6]()
+  #### [ex en video 1](https://youtu.be/5ZNYG3e2g_k) - [ex en video 2](https://youtu.be/aVXgUHx6ICA) - [ex en video 3](https://youtu.be/gFnCzFIjtqk) - [ex en video 4](https://youtu.be/y4P_BP-ldxk)
   
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
