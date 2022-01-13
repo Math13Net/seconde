@@ -62,11 +62,11 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
 
   * ### 7 - probabilité
-  #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
-  #### [proba - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1.pdf) et [proba - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1C.pdf)
-  #### [proba - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) et [proba - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
-  #### [proba - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [proba - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
-  
+  #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1C.pdf)
+  #### [proba - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2.pdf) et [proba - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2C.pdf)
+  #### [proba - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1.pdf) et [proba - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1C.pdf)
+  #### [proba - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/probaB2.pdf) et [proba - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/probaB2C.pdf)
+  #### [proba - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/probaB3.pdf) et [proba - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/probaB3C.pdf)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
