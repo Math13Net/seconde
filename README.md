@@ -18,12 +18,16 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 * ### [4 - pourcentage - statistique : le cours](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
   #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 6](https://youtu.be/dZ1arqz41Bg)
+  
 * ### [5 - vecteur : le cours](https://github.com/Math13Net/seconde/blob/master/05_seconde.pdf)
-  #### [ex en video 1](https://youtu.be/8PyiMHtp1fE) - [ex en video 2](https://youtu.be/wnNzmod2tMM) - [ex en video 3](https://youtu.be/eQsMZTcniuY) - [ex en video 4](https://youtu.be/zcQPz4dfnn0) - [ex en video 5](https://youtu.be/nzABUzFM6p8) - [ex en video 6](https://youtu.be/JxYpPE6iPEA) - [ex en video 7](https://youtu.be/eX-_639Pfw8) - [ex en video 8](https://youtu.be/FjUbd9Pbhmg) - [ex en video 9](https://youtu.be/hp8v6YAQQRI) - [ex en video 10](https://youtu.be/dZ81uKVDGpE)  
+  #### [ex en video 1](https://youtu.be/8PyiMHtp1fE) - [ex en video 2](https://youtu.be/wnNzmod2tMM) - [ex en video 3](https://youtu.be/eQsMZTcniuY) - [ex en video 4](https://youtu.be/zcQPz4dfnn0) - [ex en video 5](https://youtu.be/nzABUzFM6p8) - [ex en video 6](https://youtu.be/JxYpPE6iPEA) - [ex en video 7](https://youtu.be/eX-_639Pfw8) - [ex en video 8](https://youtu.be/FjUbd9Pbhmg) - [ex en video 9](https://youtu.be/hp8v6YAQQRI) - [ex en video 10](https://youtu.be/dZ81uKVDGpE)
+  
 * ### [6 - équation - inéquations - IR : le cours](https://github.com/Math13Net/seconde/blob/master/06_seconde.pdf)
   #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)
 
-
+* ### [7 - probabilité : le cours]()
+  #### [ex en video 1]() - [ex en video 2]() - [ex en video 3]() - [ex en video 4]() - [ex en video 5]() - [ex en video 6]()
+  
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
 
@@ -49,14 +53,19 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) et [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
   #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) et [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
   #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) et [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
-  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf) 
+  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf)
+  
 * ### 6 - équation - inéquation - IR
   #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
   #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1C.pdf)
   #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
   #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
 
-  
+  * ### 7 - probabilité
+  #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
+  #### [proba - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1.pdf) et [proba - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation1C.pdf)
+  #### [proba - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) et [proba - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
+  #### [proba - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [proba - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)
   
 
 -----------------------------------------------------------------------------------------------------------------------------
