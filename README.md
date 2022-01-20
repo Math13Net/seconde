@@ -23,7 +23,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [ex en video 1](https://youtu.be/8PyiMHtp1fE) - [ex en video 2](https://youtu.be/wnNzmod2tMM) - [ex en video 3](https://youtu.be/eQsMZTcniuY) - [ex en video 4](https://youtu.be/zcQPz4dfnn0) - [ex en video 5](https://youtu.be/nzABUzFM6p8) - [ex en video 6](https://youtu.be/JxYpPE6iPEA) - [ex en video 7](https://youtu.be/eX-_639Pfw8) - [ex en video 8](https://youtu.be/FjUbd9Pbhmg) - [ex en video 9](https://youtu.be/hp8v6YAQQRI) - [ex en video 10](https://youtu.be/dZ81uKVDGpE)
   
 * ### [6 - variation - extremum : le cours](https://github.com/Math13Net/seconde/blob/master/06_seconde.pdf)
-  #### [ex en video 1]() - [ex en video 2]() - [ex en video 3]() - [ex en video 4]()
+  #### [ex en video 1](https://youtu.be/yGqqoBMq8Fw) - [ex en video 2](https://youtu.be/aNivIqETxTQ) - [ex en video 3](https://youtu.be/B3mM6LYdsF8) - [ex en video 4](https://youtu.be/Vl2rlbFF22Y) - [ex en video 5](https://youtu.be/qJ-Iiz8TvZ4) - [ex en video 6](https://youtu.be/PRSDu_PgCZA)
+
 
 
 * ### [7 - probabilité : le cours](https://github.com/Math13Net/seconde/blob/master/07_seconde.pdf)
@@ -61,10 +62,11 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf)
   
 * ### 6 - variation - extremum
-  #### [éq - inéq - IR - sujet 1]() et [éq - inéq - IR - corr 1]()
-  #### [éq - inéq - IR - sujet 2]() et [éq - inéq - IR - corr 2]()
-  #### [éq - inéq - IR - sujet 3]() et [éq - inéq - IR - corr 3]()
-  #### [éq - inéq - IR - sujet 4]() et [éq - inéq - IR - corr 4]()
+  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1C.pdf)
+  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2C.pdf)
+  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1C.pdf)
+  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2C.pdf)
+  #### [éq - inéq - IR - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3.pdf) et [éq - inéq - IR - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3C.pdf)
 
   * ### 7 - probabilité
   #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1C.pdf)
