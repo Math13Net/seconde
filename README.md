@@ -98,8 +98,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds1.pdf)
 * ### [devoir 2](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds2.pdf)
 * ### [devoir 3](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds3.pdf)
-* ### [devoir 4](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds4.pdf)
-* ### [devoir 5](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
+* ### [devoir 5](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds4.pdf)
+* ### [devoir 6](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Progression , algo - Lycée Jean Monnet seconde - 2021/2022
