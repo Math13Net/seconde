@@ -3,7 +3,7 @@
 Magic Problem Solver Algorithm : [feynman-problem-solving-algorithm](https://proftomcrick.com/2011/04/26/feynman-problem-solving-algorithm/)
 ---------------------------------------------------------------------------------------------------------------------------
 
-Voici qq fichiers pour des éléments de cours de la classe de seconde :
+Voici qq fichiers pour des éléments de cours de la classe de seconde : $x = \dfrac{\sqrt(2x+1)}{8}$
 ## 🌈 [cours](#cours)
 ## :gift_heart: [exercice corrigé](#ex)
 ## 🔥 [fiches, résumés](#resume)
