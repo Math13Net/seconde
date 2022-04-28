@@ -1,7 +1,5 @@
 # :santa: Seconde - Lycée Jean Monnet - Montpellier - 2021/2022
 
-$x = \dfrac{\sqrt{2x+1}}{8}$
-
 Magic Problem Solver Algorithm : [feynman-problem-solving-algorithm](https://proftomcrick.com/2011/04/26/feynman-problem-solving-algorithm/)
 ---------------------------------------------------------------------------------------------------------------------------
 
