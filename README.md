@@ -35,7 +35,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)  
   
  * ### [9 - droite - système : le cours](https://github.com/Math13Net/seconde/blob/master/09_seconde.pdf)
-  #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)  
+  #### [ex en video 1](https://youtu.be/EchUv2cGtzo) - [ex en video 2](https://youtu.be/6VdSz-0QT4Y) - [ex en video 3](https://youtu.be/rLxQIbQkPsQ) - [ex en video 4](https://youtu.be/NosYmlLLFB4) - [ex en video 5](https://youtu.be/i5WD8IZdEqk) - [ex en video 6](https://youtu.be/tfagLy6QRuw) - [ex en video 7](https://youtu.be/tfagLy6QRuw) - [ex en video 8](https://youtu.be/NjsVdVolhvU) - [ex en video 9](https://youtu.be/24VsDZK6bN0) - [ex en video 10](https://youtu.be/tzOCBkFZgUI) - [ex en video 11](https://youtu.be/V3yn_oEdgxc) - [ex en video 12](https://youtu.be/V3yn_oEdgxc)  
   
 
   
