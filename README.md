@@ -34,6 +34,11 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [8 - équation - inéquations - IR : le cours](https://github.com/Math13Net/seconde/blob/master/08_seconde.pdf)
   #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)  
   
+ * ### [9 - droite - système : le cours](https://github.com/Math13Net/seconde/blob/master/09_seconde.pdf)
+  #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)  
+  
+
+  
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="ex"></a> exercice math seconde
 
