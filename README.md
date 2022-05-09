@@ -86,8 +86,13 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation2C.pdf)
   #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equation3C.pdf)  
   
+  * ### 9 - droite - système
+  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesE1C.pdf)
+  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesE2.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesE2C.pdf)
+  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesB1.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesB1C.pdf)
+  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesB2.pdf) et [éq - inéq - IR - corr 4](http://mathgm.free.fr/documents/seconde/revisions/droites_systemesB2C.pdf)  
+  #### [éq - inéq - IR - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesB3.pdf) et [éq - inéq - IR - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/droites_systemesB3C.pdf) 
   
-
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="resume"></a> résumé de cours math seconde
 * ### [les nombres 1/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/01_les_nombres/schema_fractions.pdf) - [les nombres 2/2](https://www.lyceedadultes.fr/sitepedagogique/documents/math/math2S/01_les_nombres/schema_ens_nbres.pdf)
