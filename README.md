@@ -10,6 +10,8 @@ Magic Problem Solver Algorithm : [feynman-problem-solving-algorithm](https://pro
 * ### date de clôture de la cagnotte : 18 septembre 2023  
 * ### les élèves seront invités à indiquer leur classe ou leur niveau lors de leur commande  
 
+<span style="color:red;">your text here > </span>
+
 ------------------------------------------------------------------------------------------------------------------------------
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## 🌈 [cours](#cours)
