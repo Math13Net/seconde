@@ -1,13 +1,4 @@
 # :santa: Seconde - Montpellier - 2023/2024
----------------------------------------------------------------------------------------------------------------------------
-
-# 🆕 COMMANDE CALCULATRICE POUR LA CLASSE DE SECONDE 203 
-
-## Au nom de toute l'équipe NumWorks, je vous remercie d'avoir mis en place une cagnotte en ligne pour le Lycée Jean Monnet ! Voici un récapitulatif de votre cagnotte en ligne :  
-* ### lien pour accéder à la cagnotte et à partager avec les familles : https://promo.numworks.fr/3766  
-* ### date de clôture de la cagnotte : 18 septembre 2023  
-* ### les élèves seront invités à indiquer leur classe ou leur niveau lors de leur commande  
-
 ------------------------------------------------------------------------------------------------------------------------------
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
 ## 🌈 [cours](#cours)
