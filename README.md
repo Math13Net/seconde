@@ -106,7 +106,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [devoir 3](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds3.pdf)
 * ### [devoir 5](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds4.pdf)
 * ### [devoir 6](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
-
+* ### [devoir commun 2022 - sujet](https://github.com/Math13Net/seconde/blob/master/2022-03-31%20sujet%20CC.pdf)
+* ### [devoir commun 2022 ](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 ---------------------------------------------------------------------------------------------------------------------------
 ## [algorithmes à connaître en seconde](https://github.com/Math13Net/seconde/blob/master/algorithms)
 ## [programme officiel](https://github.com/Math13Net/seconde_7/blob/master/seconde_math_programme.pdf)
