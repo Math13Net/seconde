@@ -40,6 +40,8 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 * ### [82 exercices corrigés en seconde](http://ndm.maths.free.fr/Cours2nde/Exercices.pdf)
 
+* ### [ex GRALYM Montpellier](https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/GraLyM_Secondes_final.pdf)
+
 * ### 3 - notion de fonction
   #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) et [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
   #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) et [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
