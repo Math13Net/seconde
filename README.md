@@ -46,7 +46,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) et [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
   #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) et [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
   #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) et [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
-
+  #### [ma fiche fonction](https://github.com/Math13Net/seconde/blob/master/GPT_Fonctions.pdf)
 
 * ### 4 - pourcentage - statistique
   #### [pourcentage - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) et [pourcentage - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
