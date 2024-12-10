@@ -42,13 +42,30 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 * ### [ex GRALYM Montpellier](https://pedagogie.ac-montpellier.fr/sites/default/files/ressources/GraLyM_Secondes_final.pdf)
 
+* ### 1 - les nombres
+  #### [nombres - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB1.pdf) et [nombres - corrigé 1](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB1C.pdf)
+  #### [nombres - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB2.pdf) et [nombres - corrigé 2](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB2C.pdf)
+  #### [nombres - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB3.pdf) et [nombres - corrigé 3](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB3C.pdf)
+
+
+
 * ### 3 - notion de fonction
   #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) et [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
   #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) et [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
   #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) et [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
   #### [ma fiche fonction](https://github.com/Math13Net/seconde/blob/master/GPT_Fonctions.pdf)
 
-* ### 4 - pourcentage - statistique
+
+
+* ### 4 - vecteur
+  #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) et [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
+  #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) et [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) et [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
+  #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) et [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
+  #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) et [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
+  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf)
+
+* ### 5 - pourcentage - statistique
   #### [pourcentage - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageE.pdf) et [pourcentage - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageEC.pdf)
   #### [pourcentage - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB1.pdf) et [pourcentage - corr 2](http://mathgm.free.fr/documents/seconde/revisions/pourcentageB1C.pdf)
   #### [pourcentage - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2.pdf) et [pourcentage - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/pourcentageB2C.pdf)
@@ -56,13 +73,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) et [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) et [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
 
-* ### 5 - vecteur
-  #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) et [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
-  #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) et [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
-  #### [vecteur - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1B.pdf) et [vecteur - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
-  #### [vecteur - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2B.pdf) et [vecetur - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur2BC.pdf)
-  #### [vecteur - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3B.pdf) et [vecteur - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur3BC.pdf)
-  #### [vecteur - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4B.pdf) et [vecteur - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur4BC.pdf)
+
   
 * ### 6 - variation - extremum
   #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1C.pdf)
