@@ -48,6 +48,10 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [nombres - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB3.pdf) et [nombres - corrigé 3](https://www.mathgm.fr/images/documents/seconde/revisions/nombres_calculsB3C.pdf)
 
 
+* ### 2 - repère et coordonéées
+  #### [repère - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/reperage__geometrie_planeE.pdf) et [repère - corrigé 1](https://www.mathgm.fr/images/documents/seconde/revisions/reperage_geometrie_plane1EC.pdf)
+  #### [repère - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/reperage_geometrie_planetB1.pdf) et [repère - corrigé 2](https://www.mathgm.fr/images/documents/seconde/revisions/reperage_geometrie_plane1BC.pdf)
+  #### [repère - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/reperage_geometrie_plane_sujet2B.pdf) et [repère - corrigé 3](https://www.mathgm.fr/images/documents/seconde/revisions/reperage_geometrie_plane_sujet2BC.pdf)
 
 * ### 3 - notion de fonction
   #### [fonction - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedents.pdf) et [fonction - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_images_antedentsC.pdf)
