@@ -76,8 +76,6 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) et [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
   #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) et [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) et [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
-
-
   
 * ### 6 - variation - extremum
   #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1C.pdf)
