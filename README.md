@@ -59,8 +59,6 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) et [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
   #### [ma fiche fonction](https://github.com/Math13Net/seconde/blob/master/GPT_Fonctions.pdf)
 
-
-
 * ### 4 - vecteur
   #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) et [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
   #### [vecteur - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE2.pdf) et [vecteur - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/vecteur1BC.pdf)
@@ -117,7 +115,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="devoir"></a> devoir math seconde
 * ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds1.pdf)
-* ### [devoir 2](https://github.com/Math13Net/seconde/blob/master/2021_seconde__ds2.pdf)
+* ### [devoir vecteur entrainement2](https://physique-et-maths.fr/enseignement/seconde/mathematiques/vecteurs_plan/vecteurs_plan_exercices.pdf)
 * ### [devoir 3](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds3.pdf)
 * ### [devoir 5](https://github.com/Math13Net/seconde/blob/master/2021_seconde_ds4.pdf)
 * ### [devoir 6](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
