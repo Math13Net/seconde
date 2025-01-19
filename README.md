@@ -73,20 +73,20 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesE.pdf) et [statistique - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesEC.pdf)
   #### [statistique - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1.pdf) et [statistique - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB1C.pdf)
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) et [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
-  
-* ### 6 - variation - extremum
-  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1C.pdf)
-  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2C.pdf)
-  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1C.pdf)
-  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2C.pdf)
-  #### [éq - inéq - IR - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3.pdf) et [éq - inéq - IR - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3C.pdf)
 
-  * ### 7 - probabilité
+  * ### 6 - probabilité
   #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1C.pdf)
   #### [proba - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2.pdf) et [proba - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2C.pdf)
   #### [proba - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1.pdf) et [proba - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1C.pdf)
   #### [proba - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/probaB2.pdf) et [proba - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/probaB2C.pdf)
   #### [proba - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/probaB3.pdf) et [proba - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/probaB3C.pdf)
+  
+* ### 7 - variation - extremum
+  #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE1C.pdf)
+  #### [éq - inéq - IR - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2.pdf) et [éq - inéq - IR - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsE2C.pdf)
+  #### [éq - inéq - IR - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1.pdf) et [éq - inéq - IR - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB1C.pdf)
+  #### [éq - inéq - IR - sujet 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2.pdf) et [éq - inéq - IR - corr 4](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB2C.pdf)
+  #### [éq - inéq - IR - sujet 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3.pdf) et [éq - inéq - IR - corr 5](https://www.mathgm.fr/images/documents/seconde/revisions/variations_extremumsB3C.pdf)
   
 * ### 8 - équation - inéquation - IR
   #### [éq - inéq - IR - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationR.pdf) et [éq - inéq - IR - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_calc_equationRC.pdf)
