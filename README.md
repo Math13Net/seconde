@@ -19,13 +19,12 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 * ### [5 - pourcentage - statistique : le cours](https://github.com/Math13Net/seconde/blob/master/05_seconde.pdf)
   #### [ex en video 1](https://www.youtube.com/watch?v=nPPRsOW2veU&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=-5QmcMuzy5I&ab_channel=YvanMonka) - [video 3](https://www.youtube.com/watch?v=UVXFEDUnSjI&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=qOg2eXd8Hv0&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=NiCxHYkpNiM&ab_channel=YvanMonka) - [ex en video 6](https://youtu.be/dZ1arqz41Bg)
-  
-* ### [6 - variation - extremum : le cours](https://github.com/Math13Net/seconde/blob/master/06_seconde.pdf)
-  #### [ex en video 1](https://youtu.be/yGqqoBMq8Fw) - [ex en video 2](https://youtu.be/aNivIqETxTQ) - [ex en video 3](https://youtu.be/B3mM6LYdsF8) - [ex en video 4](https://youtu.be/Vl2rlbFF22Y) - [ex en video 5](https://youtu.be/qJ-Iiz8TvZ4) - [ex en video 6](https://youtu.be/PRSDu_PgCZA)
 
-* ### [7 - probabilité : le cours](https://github.com/Math13Net/seconde/blob/master/07_seconde.pdf)
+* ### [6 - probabilité : le cours](https://github.com/Math13Net/seconde/blob/master/07_seconde.pdf)
   #### [ex en video 1](https://youtu.be/5ZNYG3e2g_k) - [ex en video 2](https://youtu.be/aVXgUHx6ICA) - [ex en video 3](https://youtu.be/gFnCzFIjtqk) - [ex en video 4](https://youtu.be/y4P_BP-ldxk)
   
+* ### [7 - variation - extremum : le cours](https://github.com/Math13Net/seconde/blob/master/06_seconde.pdf)
+  #### [ex en video 1](https://youtu.be/yGqqoBMq8Fw) - [ex en video 2](https://youtu.be/aNivIqETxTQ) - [ex en video 3](https://youtu.be/B3mM6LYdsF8) - [ex en video 4](https://youtu.be/Vl2rlbFF22Y) - [ex en video 5](https://youtu.be/qJ-Iiz8TvZ4) - [ex en video 6](https://youtu.be/PRSDu_PgCZA)
   
 * ### [8 - équation - inéquations - IR : le cours](https://github.com/Math13Net/seconde/blob/master/08_seconde.pdf)
   #### [ex en video 1](https://youtu.be/U98Tk89SJ5M) - [ex en video 2](https://youtu.be/T9T4IeYGEe4) - [ex en video 3](https://youtu.be/tO4p9TzMrls) - [ex en video 4](https://youtu.be/Id_udNTKsqI) - [ex en video 5](https://youtu.be/zhY1HD4oLHg) - [ex en video 6](https://youtu.be/OtGN4HHwEek)  
