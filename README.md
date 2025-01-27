@@ -75,6 +75,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [statistique - sujet 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2.pdf) et [statistique - corr 6](https://www.mathgm.fr/images/documents/seconde/revisions/statistiquesB2C.pdf)  
 
   * ### 6 - probabilité
+  #### [Paradoxe de Penney - fiche élève](https://github.com/Math13Net/seconde/blob/master/Paradoxe%20de%20Penney%20(fiche%20%C3%A9l%C3%A8ve).pdf) - [Paradoxe de Penney - NoteBook Jupyter](https://github.com/Math13Net/seconde/blob/master/Paradoxe_de_Penney_Simulations.ipynb) - [Paradoxe de Penney - gist](https://gist.github.com/Math13Net/a4e77ac21d063166c82642daa9f74631)
   #### [proba - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1.pdf) et [proba - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/probaE1C.pdf)
   #### [proba - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2.pdf) et [proba - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/probaE2C.pdf)
   #### [proba - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1.pdf) et [proba - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/probaB1C.pdf)
