@@ -120,6 +120,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [devoir 4 entrainement](https://physique-et-maths.fr/enseignement/seconde/mathematiques/vecteurs_plan/vecteurs_plan_exercices.pdf) - [devoir 4](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds4.pdf)
 * ### [devoir 5](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 * ### [devoir 6](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
+* ### [devoir commun 2024 - sujet](https://github.com/Math13Net/seconde/blob/master/CC_2024.pdf)
 * ### [devoir commun 2022 - sujet](https://github.com/Math13Net/seconde/blob/master/2022-03-31%20sujet%20CC.pdf)
 * ### [devoir commun 2022 - corrigé](http://fr.shaarr.com/app/i-love-you/7509/i-love-coucou)
 ---------------------------------------------------------------------------------------------------------------------------
