@@ -2,7 +2,7 @@
 [what's a good math game ?](https://youtu.be/wDAcsgIC7ZU?si=lKxQv9KAYisj_BvV)
 ------------------------------------------------------------------------------------------------------------------------------
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
-## 🌈 [cours](#cours) - [IAG - activité chapitre 1]()
+## 🌈 [cours](#cours)
 ## :gift_heart: [exercice corrigé](#ex)
 ## 🔥 [fiches, résumés](#resume)
 ## 🚀 [devoirs](#devoir)
