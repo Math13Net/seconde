@@ -1,4 +1,4 @@
-# :santa: Seconde - Montpellier - 2024/2025
+# :santa: Seconde
 [what's a good math game ?](https://youtu.be/wDAcsgIC7ZU?si=lKxQv9KAYisj_BvV)
 ------------------------------------------------------------------------------------------------------------------------------
 Voici qq fichiers pour des éléments de cours de la classe de seconde :
