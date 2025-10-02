@@ -10,7 +10,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="cours"></a> cours math seconde
 * ### [1 - les nombres réels : le cours](https://math13net.github.io/seconde/01_seconde.pdf)
-* ### [2 - repère et coordonnées : le cours]()
+* ### [2 - repère et coordonnées : le cours](https://math13net.github.io/seconde/02_seconde.pdf)
 * ### [3 - notion de fonction : le cours]()
   #### [ex en video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [ex en video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [ex en video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
 
