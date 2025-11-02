@@ -114,7 +114,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## <a name="devoir"></a> devoir math seconde
-* ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds1.pdf)
+* ### [devoir 1](https://github.com/Math13Net/seconde/blob/master/2025_seconde_ds1.pdf)
 * ### [devoir 2](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds2.pdf)
 * ### [devoir 3](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds3.pdf) 
 * ### [devoir 4 entrainement](https://physique-et-maths.fr/enseignement/seconde/mathematiques/vecteurs_plan/vecteurs_plan_exercices.pdf) - [devoir 4](https://github.com/Math13Net/seconde/blob/master/2024_seconde_ds4.pdf)
