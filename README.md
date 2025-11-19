@@ -57,6 +57,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
   #### [fonction - sujet 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1.pdf) et [fonction - corr 2](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine1C.pdf)
   #### [fonction - sujet 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2.pdf) et [fonction - corr 3](https://www.mathgm.fr/images/documents/seconde/revisions/fiche_fctaffine2C.pdf)
   #### [ma fiche fonction](https://github.com/Math13Net/seconde/blob/master/GPT_Fonctions.pdf)
+  #### [Modélisation Sprint H/F](https://github.com/Math13Net/seconde/blob/master/Mod%C3%A9lisation%20Affine%20-%20Course.pdf) - [Stat H/F sur Calc](https://github.com/Math13Net/seconde/blob/master/course_femme_homme.ods)
 
 * ### 4 - vecteur
   #### [vecteur - sujet 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1.pdf) et [vecteur - corr 1](https://www.mathgm.fr/images/documents/seconde/revisions/vecteurE1C.pdf)
