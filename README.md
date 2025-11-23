@@ -14,7 +14,7 @@ Voici qq fichiers pour des éléments de cours de la classe de seconde :
 * ### [3 - notion de fonction : le cours](https://math13net.github.io/seconde/03_seconde.pdf)
   #### [ex en video 1](https://www.youtube.com/watch?v=FCUd2muFEyI&ab_channel=YvanMonka) - [ex en video 2](https://www.youtube.com/watch?v=3_6LcpumUh4&ab_channel=YvanMonka) - [ex en video 3](https://www.youtube.com/watch?v=AZvjA44WfPw&ab_channel=YvanMonka) - [ex en video 4](https://www.youtube.com/watch?v=Xv_mdK9kaCA&ab_channel=YvanMonka) - [ex en video 5](https://www.youtube.com/watch?v=V07NxCl7Eto&ab_channel=YvanMonka) - [ex en video 6](https://www.youtube.com/watch?v=UPI7RoS0Vhg&ab_channel=YvanMonka)
 
-* ### [4 - vecteur : le cours](https://math13net.github.io/seconde/04_seconde.pdf)
+* ### [4 - vecteur : le cours](https://github.com/Math13Net/seconde/blob/master/04_seconde.pdf)
   #### [ex en video 1](https://youtu.be/8PyiMHtp1fE) - [ex en video 2](https://youtu.be/wnNzmod2tMM) - [ex en video 3](https://youtu.be/eQsMZTcniuY) - [ex en video 4](https://youtu.be/zcQPz4dfnn0) - [ex en video 5](https://youtu.be/nzABUzFM6p8) - [ex en video 6](https://youtu.be/JxYpPE6iPEA) - [ex en video 7](https://youtu.be/eX-_639Pfw8) - [ex en video 8](https://youtu.be/FjUbd9Pbhmg) - [ex en video 9](https://youtu.be/hp8v6YAQQRI) - [ex en video 10](https://youtu.be/dZ81uKVDGpE)
 
 * ### [5 - pourcentage - statistique : le cours]()
